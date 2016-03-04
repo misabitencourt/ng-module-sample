@@ -6,6 +6,6 @@ _______________________
 
 Exemplo de programação reativa (usando apenas diretivas) e múltiplos módulos em AngularJS
 
-Para rodar, copie o diretório public para um servidor web qualquer ou utilize o comando: npm install & npm run up
+Para rodar, copie o diretório public para um servidor web qualquer OU utilize o comando: npm install & npm run up
 
 
