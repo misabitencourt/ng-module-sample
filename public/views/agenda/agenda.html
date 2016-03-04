@@ -1,0 +1,41 @@
+
+<div class="container">
+	<h1>Agenda</h1>
+
+	<div class="row">
+		<div class="col-md-12" data-ng-repeat="day in days">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-sm-8">
+							<h3 class="panel-title">
+								<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+								<span data-ng-bind="day.title"></span>
+							</h3>
+						</div>
+						<div class="col-sm-4">
+							<button class="pull-right btn btn-primary" data-ng-click="openClientModal(day.id)">
+								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="alert alert-warning" role="alert" data-ng-hide="day.events.length">
+						Nenhuma visita agendada para este dia
+					</div>
+					<div class="list-group" data-ng-show="day.events.length">
+						<button type="button" class="list-group-item" data-ng-repeat="event in day.events">
+							<span data-ng-bind="event.description"></span> - <span data-ng-bind="event.client"></span>
+							<a href="javascript:" data-ng-click="remove(day.id, $index)" class="pull-right">
+								<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+							</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<event data="event"></event>

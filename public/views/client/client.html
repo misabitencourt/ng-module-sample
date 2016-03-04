@@ -1,0 +1,29 @@
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-8">
+			<h1>Clientes</h1>
+		</div>
+		<div class="col-md-4 text-right">
+			<br>
+			<button class="btn btn-primary" data-ng-click="save()">
+				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+			</button>
+		</div>
+	</div>
+
+	<div class="alert alert-warning alert-dismissible fade in" role="alert" data-ng-hide="clients.length">
+		Nenhum cliente cadastrado
+	</div>
+
+	<div class="list-group" data-ng-show="clients.length">
+		<button type="button" class="list-group-item" data-ng-repeat="client in clients">
+			<span data-ng-bind="client"></span>
+			<a href="javascript:" data-ng-click="remove($index)" class="pull-right">
+				<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+			</a>
+		</button>
+	</div>
+
+</div>

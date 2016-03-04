@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Sample</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	</head>
+	<body data-ng-app="agenda">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#agenda" aria-controls="agenda" role="tab" data-toggle="tab">
+								Agenda
+							</a>
+						</li>
+						<li role="presentation">
+							<a href="#client" aria-controls="client" role="tab" data-toggle="tab">
+								Clientes
+							</a>
+						</li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="agenda">
+							<agenda></agenda>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="client">
+							<client></client>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Vendors -->
+		<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+		<!-- Dependencies -->
+		<script src="modules/agenda/module.js"></script>
+		<script src="modules/agenda/directives/event.js"></script>
+		<script src="modules/agenda/directives/agenda.js"></script>
+		<script src="modules/agenda/services/agenda.js"></script>
+
+		<script src="modules/clients/module.js"></script>
+		<script src="modules/clients/directives/client.js"></script>
+		<script src="modules/clients/services/client.js"></script>
+
+	</body>
+</html>

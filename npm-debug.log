@@ -1,0 +1,2373 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/misael/.nvm/versions/node/v4.0.0/bin/node',
+1 verbose cli   '/home/misael/.nvm/versions/node/v4.0.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   '--save' ]
+2 info using npm@3.7.2
+3 info using node@v4.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData gulp
+8 silly fetchNamedPackageData gulp
+9 silly mapToRegistry name gulp
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/gulp
+13 verbose request uri https://registry.npmjs.org/gulp
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 15:10:12
+16 verbose request id 636da6a2d0e36c74
+17 verbose etag "DBMGUVGANFVKV9ZQL7ALL72B8"
+18 http request GET https://registry.npmjs.org/gulp
+19 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+20 info attempt registry request try #2 at 15:10:22
+21 verbose etag "DBMGUVGANFVKV9ZQL7ALL72B8"
+22 http request GET https://registry.npmjs.org/gulp
+23 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+24 info attempt registry request try #3 at 15:11:22
+25 verbose etag "DBMGUVGANFVKV9ZQL7ALL72B8"
+26 http request GET https://registry.npmjs.org/gulp
+27 silly get cb [ 304, undefined ]
+28 verbose etag https://registry.npmjs.org/gulp from cache
+29 verbose get saving gulp to /home/misael/.npm/registry.npmjs.org/gulp/.cache.json
+30 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+31 silly install normalizeTree
+32 silly loadCurrentTree Finishing
+33 silly loadIdealTree Starting
+34 silly install loadIdealTree
+35 silly cloneCurrentTree Starting
+36 silly install cloneCurrentTreeToIdealTree
+37 silly cloneCurrentTree Finishing
+38 silly loadShrinkwrap Starting
+39 silly install loadShrinkwrap
+40 silly loadShrinkwrap Finishing
+41 silly loadAllDepsIntoIdealTree Starting
+42 silly install loadAllDepsIntoIdealTree
+43 silly resolveWithNewModule gulp@3.9.0 checking installable status
+44 silly cache add args [ 'gulp', null ]
+45 verbose cache add spec gulp
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'gulp',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'gulp',
+46 silly cache add   rawSpec: '',
+46 silly cache add   spec: 'latest',
+46 silly cache add   type: 'tag' }
+47 silly addNamed gulp@latest
+48 verbose addNamed "latest" is being treated as a dist-tag for gulp
+49 info addNameTag [ 'gulp', 'latest' ]
+50 silly mapToRegistry name gulp
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/gulp
+54 verbose addNameTag registry:https://registry.npmjs.org/gulp not in flight; fetching
+55 verbose get https://registry.npmjs.org/gulp not expired, no request
+56 silly addNameTag next cb for gulp with tag latest
+57 silly addNamed gulp@3.9.0
+58 verbose addNamed "3.9.0" is a plain semver version for gulp
+59 silly cache afterAdd gulp@3.9.0
+60 verbose afterAdd /home/misael/.npm/gulp/3.9.0/package/package.json not in flight; writing
+61 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+62 verbose afterAdd /home/misael/.npm/gulp/3.9.0/package/package.json written
+63 silly fetchNamedPackageData archy
+64 silly mapToRegistry name archy
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/archy
+68 silly fetchNamedPackageData chalk
+69 silly mapToRegistry name chalk
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/chalk
+73 silly fetchNamedPackageData deprecated
+74 silly mapToRegistry name deprecated
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/deprecated
+78 silly fetchNamedPackageData gulp-util
+79 silly mapToRegistry name gulp-util
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+83 silly fetchNamedPackageData interpret
+84 silly mapToRegistry name interpret
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/interpret
+88 silly fetchNamedPackageData liftoff
+89 silly mapToRegistry name liftoff
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/liftoff
+93 silly fetchNamedPackageData minimist
+94 silly mapToRegistry name minimist
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry uri https://registry.npmjs.org/minimist
+98 silly fetchNamedPackageData orchestrator
+99 silly mapToRegistry name orchestrator
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/orchestrator
+103 silly fetchNamedPackageData pretty-hrtime
+104 silly mapToRegistry name pretty-hrtime
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/pretty-hrtime
+108 silly fetchNamedPackageData semver
+109 silly mapToRegistry name semver
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/semver
+113 silly fetchNamedPackageData tildify
+114 silly mapToRegistry name tildify
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry uri https://registry.npmjs.org/tildify
+118 silly fetchNamedPackageData v8flags
+119 silly mapToRegistry name v8flags
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry uri https://registry.npmjs.org/v8flags
+123 silly fetchNamedPackageData vinyl-fs
+124 silly mapToRegistry name vinyl-fs
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/vinyl-fs
+128 verbose request uri https://registry.npmjs.org/archy
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 15:11:22
+131 verbose etag "6EZY7G1TMK6WGDEBYX95ZZVW2"
+132 http request GET https://registry.npmjs.org/archy
+133 verbose request uri https://registry.npmjs.org/deprecated
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 15:11:22
+136 verbose etag "4ST2K9G9PP2UO3MRNVO9JKG1A"
+137 http request GET https://registry.npmjs.org/deprecated
+138 verbose request uri https://registry.npmjs.org/gulp-util
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 15:11:22
+141 verbose etag "AZY440TI6H4TR0VNGAZZGH8PP"
+142 http request GET https://registry.npmjs.org/gulp-util
+143 verbose request uri https://registry.npmjs.org/interpret
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 15:11:22
+146 verbose etag "6OMB7EGGRO1EVB5KZMER48B7L"
+147 http request GET https://registry.npmjs.org/interpret
+148 verbose request uri https://registry.npmjs.org/liftoff
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 15:11:22
+151 verbose etag "79QBHE3LG7MUT3X9MVB6CBA0P"
+152 http request GET https://registry.npmjs.org/liftoff
+153 verbose request uri https://registry.npmjs.org/chalk
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 15:11:22
+156 verbose etag "9GZ69EM49GU6C1UDBFPBE1I03"
+157 http request GET https://registry.npmjs.org/chalk
+158 verbose request uri https://registry.npmjs.org/minimist
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 15:11:22
+161 verbose etag "EHVT2OHEPQZPSJGBXWVV2FPU0"
+162 http request GET https://registry.npmjs.org/minimist
+163 verbose request uri https://registry.npmjs.org/orchestrator
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 15:11:22
+166 verbose etag "E8Q6FDYF25XWVEVSG7TVNUUF2"
+167 http request GET https://registry.npmjs.org/orchestrator
+168 verbose request uri https://registry.npmjs.org/pretty-hrtime
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 15:11:22
+171 verbose etag "7JSTUAIXH2A5M15368G2Y1P35"
+172 http request GET https://registry.npmjs.org/pretty-hrtime
+173 verbose request uri https://registry.npmjs.org/semver
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 15:11:22
+176 verbose etag "5K8ZQDIVB9VN9CW7RC114334F"
+177 http request GET https://registry.npmjs.org/semver
+178 verbose request uri https://registry.npmjs.org/v8flags
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 15:11:22
+181 verbose etag "967NB6R8Y9YA5JBADTEK9CNIP"
+182 http request GET https://registry.npmjs.org/v8flags
+183 verbose request uri https://registry.npmjs.org/tildify
+184 verbose request no auth needed
+185 info attempt registry request try #1 at 15:11:22
+186 verbose etag "2CC2F7FW8M2IW3LNQX9B1US1H"
+187 http request GET https://registry.npmjs.org/tildify
+188 verbose request uri https://registry.npmjs.org/vinyl-fs
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 15:11:22
+191 verbose etag "80VMNUG1SA11CUIZGUW66PYDK"
+192 http request GET https://registry.npmjs.org/vinyl-fs
+193 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+194 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+195 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+196 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+197 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+198 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+199 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+200 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+201 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+202 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+203 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+204 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+205 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+206 info attempt registry request try #2 at 15:11:32
+207 verbose etag "6EZY7G1TMK6WGDEBYX95ZZVW2"
+208 http request GET https://registry.npmjs.org/archy
+209 info attempt registry request try #2 at 15:11:32
+210 verbose etag "4ST2K9G9PP2UO3MRNVO9JKG1A"
+211 http request GET https://registry.npmjs.org/deprecated
+212 info attempt registry request try #2 at 15:11:32
+213 verbose etag "AZY440TI6H4TR0VNGAZZGH8PP"
+214 http request GET https://registry.npmjs.org/gulp-util
+215 info attempt registry request try #2 at 15:11:32
+216 verbose etag "6OMB7EGGRO1EVB5KZMER48B7L"
+217 http request GET https://registry.npmjs.org/interpret
+218 info attempt registry request try #2 at 15:11:32
+219 verbose etag "79QBHE3LG7MUT3X9MVB6CBA0P"
+220 http request GET https://registry.npmjs.org/liftoff
+221 info attempt registry request try #2 at 15:11:32
+222 verbose etag "9GZ69EM49GU6C1UDBFPBE1I03"
+223 http request GET https://registry.npmjs.org/chalk
+224 info attempt registry request try #2 at 15:11:32
+225 verbose etag "EHVT2OHEPQZPSJGBXWVV2FPU0"
+226 http request GET https://registry.npmjs.org/minimist
+227 info attempt registry request try #2 at 15:11:33
+228 verbose etag "E8Q6FDYF25XWVEVSG7TVNUUF2"
+229 http request GET https://registry.npmjs.org/orchestrator
+230 info attempt registry request try #2 at 15:11:33
+231 verbose etag "7JSTUAIXH2A5M15368G2Y1P35"
+232 http request GET https://registry.npmjs.org/pretty-hrtime
+233 info attempt registry request try #2 at 15:11:33
+234 verbose etag "5K8ZQDIVB9VN9CW7RC114334F"
+235 http request GET https://registry.npmjs.org/semver
+236 info attempt registry request try #2 at 15:11:33
+237 verbose etag "967NB6R8Y9YA5JBADTEK9CNIP"
+238 http request GET https://registry.npmjs.org/v8flags
+239 info attempt registry request try #2 at 15:11:33
+240 verbose etag "2CC2F7FW8M2IW3LNQX9B1US1H"
+241 http request GET https://registry.npmjs.org/tildify
+242 info attempt registry request try #2 at 15:11:33
+243 verbose etag "80VMNUG1SA11CUIZGUW66PYDK"
+244 http request GET https://registry.npmjs.org/vinyl-fs
+245 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+246 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+247 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+248 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+249 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+250 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+251 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+252 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+253 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+254 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+255 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+256 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+257 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+258 info attempt registry request try #3 at 15:12:33
+259 verbose etag "6EZY7G1TMK6WGDEBYX95ZZVW2"
+260 http request GET https://registry.npmjs.org/archy
+261 info attempt registry request try #3 at 15:12:33
+262 verbose etag "4ST2K9G9PP2UO3MRNVO9JKG1A"
+263 http request GET https://registry.npmjs.org/deprecated
+264 info attempt registry request try #3 at 15:12:33
+265 verbose etag "AZY440TI6H4TR0VNGAZZGH8PP"
+266 http request GET https://registry.npmjs.org/gulp-util
+267 info attempt registry request try #3 at 15:12:33
+268 verbose etag "6OMB7EGGRO1EVB5KZMER48B7L"
+269 http request GET https://registry.npmjs.org/interpret
+270 info attempt registry request try #3 at 15:12:33
+271 verbose etag "79QBHE3LG7MUT3X9MVB6CBA0P"
+272 http request GET https://registry.npmjs.org/liftoff
+273 info attempt registry request try #3 at 15:12:33
+274 verbose etag "9GZ69EM49GU6C1UDBFPBE1I03"
+275 http request GET https://registry.npmjs.org/chalk
+276 info attempt registry request try #3 at 15:12:33
+277 verbose etag "EHVT2OHEPQZPSJGBXWVV2FPU0"
+278 http request GET https://registry.npmjs.org/minimist
+279 info attempt registry request try #3 at 15:12:33
+280 verbose etag "E8Q6FDYF25XWVEVSG7TVNUUF2"
+281 http request GET https://registry.npmjs.org/orchestrator
+282 info attempt registry request try #3 at 15:12:33
+283 verbose etag "7JSTUAIXH2A5M15368G2Y1P35"
+284 http request GET https://registry.npmjs.org/pretty-hrtime
+285 info attempt registry request try #3 at 15:12:33
+286 verbose etag "5K8ZQDIVB9VN9CW7RC114334F"
+287 http request GET https://registry.npmjs.org/semver
+288 info attempt registry request try #3 at 15:12:33
+289 verbose etag "967NB6R8Y9YA5JBADTEK9CNIP"
+290 http request GET https://registry.npmjs.org/v8flags
+291 info attempt registry request try #3 at 15:12:33
+292 verbose etag "2CC2F7FW8M2IW3LNQX9B1US1H"
+293 http request GET https://registry.npmjs.org/tildify
+294 info attempt registry request try #3 at 15:12:33
+295 verbose etag "80VMNUG1SA11CUIZGUW66PYDK"
+296 http request GET https://registry.npmjs.org/vinyl-fs
+297 silly get cb [ 304, undefined ]
+298 verbose etag https://registry.npmjs.org/archy from cache
+299 verbose get saving archy to /home/misael/.npm/registry.npmjs.org/archy/.cache.json
+300 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+301 silly get cb [ 304, undefined ]
+302 verbose etag https://registry.npmjs.org/deprecated from cache
+303 verbose get saving deprecated to /home/misael/.npm/registry.npmjs.org/deprecated/.cache.json
+304 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+305 silly get cb [ 304, undefined ]
+306 verbose etag https://registry.npmjs.org/gulp-util from cache
+307 verbose get saving gulp-util to /home/misael/.npm/registry.npmjs.org/gulp-util/.cache.json
+308 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+309 silly get cb [ 304, undefined ]
+310 verbose etag https://registry.npmjs.org/interpret from cache
+311 verbose get saving interpret to /home/misael/.npm/registry.npmjs.org/interpret/.cache.json
+312 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+313 silly get cb [ 304, undefined ]
+314 verbose etag https://registry.npmjs.org/liftoff from cache
+315 verbose get saving liftoff to /home/misael/.npm/registry.npmjs.org/liftoff/.cache.json
+316 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+317 silly get cb [ 304, undefined ]
+318 verbose etag https://registry.npmjs.org/chalk from cache
+319 verbose get saving chalk to /home/misael/.npm/registry.npmjs.org/chalk/.cache.json
+320 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+321 silly get cb [ 304, undefined ]
+322 verbose etag https://registry.npmjs.org/minimist from cache
+323 verbose get saving minimist to /home/misael/.npm/registry.npmjs.org/minimist/.cache.json
+324 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+325 silly get cb [ 304, undefined ]
+326 verbose etag https://registry.npmjs.org/orchestrator from cache
+327 verbose get saving orchestrator to /home/misael/.npm/registry.npmjs.org/orchestrator/.cache.json
+328 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+329 silly get cb [ 304, undefined ]
+330 verbose etag https://registry.npmjs.org/pretty-hrtime from cache
+331 verbose get saving pretty-hrtime to /home/misael/.npm/registry.npmjs.org/pretty-hrtime/.cache.json
+332 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+333 silly get cb [ 304, undefined ]
+334 verbose etag https://registry.npmjs.org/semver from cache
+335 verbose get saving semver to /home/misael/.npm/registry.npmjs.org/semver/.cache.json
+336 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+337 silly get cb [ 304, undefined ]
+338 verbose etag https://registry.npmjs.org/v8flags from cache
+339 verbose get saving v8flags to /home/misael/.npm/registry.npmjs.org/v8flags/.cache.json
+340 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+341 silly get cb [ 304, undefined ]
+342 verbose etag https://registry.npmjs.org/tildify from cache
+343 verbose get saving tildify to /home/misael/.npm/registry.npmjs.org/tildify/.cache.json
+344 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+345 silly get cb [ 304, undefined ]
+346 verbose etag https://registry.npmjs.org/vinyl-fs from cache
+347 verbose get saving vinyl-fs to /home/misael/.npm/registry.npmjs.org/vinyl-fs/.cache.json
+348 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+349 silly resolveWithNewModule deprecated@0.0.1 checking installable status
+350 silly cache add args [ 'deprecated@^0.0.1', null ]
+351 verbose cache add spec deprecated@^0.0.1
+352 silly cache add parsed spec Result {
+352 silly cache add   raw: 'deprecated@^0.0.1',
+352 silly cache add   scope: null,
+352 silly cache add   name: 'deprecated',
+352 silly cache add   rawSpec: '^0.0.1',
+352 silly cache add   spec: '>=0.0.1 <0.0.2',
+352 silly cache add   type: 'range' }
+353 silly addNamed deprecated@>=0.0.1 <0.0.2
+354 verbose addNamed ">=0.0.1 <0.0.2" is a valid semver range for deprecated
+355 silly addNameRange { name: 'deprecated', range: '>=0.0.1 <0.0.2', hasData: false }
+356 silly mapToRegistry name deprecated
+357 silly mapToRegistry using default registry
+358 silly mapToRegistry registry https://registry.npmjs.org/
+359 silly mapToRegistry uri https://registry.npmjs.org/deprecated
+360 verbose addNameRange registry:https://registry.npmjs.org/deprecated not in flight; fetching
+361 silly resolveWithNewModule archy@1.0.0 checking installable status
+362 silly cache add args [ 'archy@^1.0.0', null ]
+363 verbose cache add spec archy@^1.0.0
+364 silly cache add parsed spec Result {
+364 silly cache add   raw: 'archy@^1.0.0',
+364 silly cache add   scope: null,
+364 silly cache add   name: 'archy',
+364 silly cache add   rawSpec: '^1.0.0',
+364 silly cache add   spec: '>=1.0.0 <2.0.0',
+364 silly cache add   type: 'range' }
+365 silly addNamed archy@>=1.0.0 <2.0.0
+366 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for archy
+367 silly addNameRange { name: 'archy', range: '>=1.0.0 <2.0.0', hasData: false }
+368 silly mapToRegistry name archy
+369 silly mapToRegistry using default registry
+370 silly mapToRegistry registry https://registry.npmjs.org/
+371 silly mapToRegistry uri https://registry.npmjs.org/archy
+372 verbose addNameRange registry:https://registry.npmjs.org/archy not in flight; fetching
+373 silly resolveWithNewModule gulp-util@3.0.7 checking installable status
+374 silly cache add args [ 'gulp-util@^3.0.0', null ]
+375 verbose cache add spec gulp-util@^3.0.0
+376 silly cache add parsed spec Result {
+376 silly cache add   raw: 'gulp-util@^3.0.0',
+376 silly cache add   scope: null,
+376 silly cache add   name: 'gulp-util',
+376 silly cache add   rawSpec: '^3.0.0',
+376 silly cache add   spec: '>=3.0.0 <4.0.0',
+376 silly cache add   type: 'range' }
+377 silly addNamed gulp-util@>=3.0.0 <4.0.0
+378 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for gulp-util
+379 silly addNameRange { name: 'gulp-util', range: '>=3.0.0 <4.0.0', hasData: false }
+380 silly mapToRegistry name gulp-util
+381 silly mapToRegistry using default registry
+382 silly mapToRegistry registry https://registry.npmjs.org/
+383 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+384 verbose addNameRange registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+385 silly resolveWithNewModule interpret@0.6.6 checking installable status
+386 silly cache add args [ 'interpret@^0.6.2', null ]
+387 verbose cache add spec interpret@^0.6.2
+388 silly cache add parsed spec Result {
+388 silly cache add   raw: 'interpret@^0.6.2',
+388 silly cache add   scope: null,
+388 silly cache add   name: 'interpret',
+388 silly cache add   rawSpec: '^0.6.2',
+388 silly cache add   spec: '>=0.6.2 <0.7.0',
+388 silly cache add   type: 'range' }
+389 silly addNamed interpret@>=0.6.2 <0.7.0
+390 verbose addNamed ">=0.6.2 <0.7.0" is a valid semver range for interpret
+391 silly addNameRange { name: 'interpret', range: '>=0.6.2 <0.7.0', hasData: false }
+392 silly mapToRegistry name interpret
+393 silly mapToRegistry using default registry
+394 silly mapToRegistry registry https://registry.npmjs.org/
+395 silly mapToRegistry uri https://registry.npmjs.org/interpret
+396 verbose addNameRange registry:https://registry.npmjs.org/interpret not in flight; fetching
+397 silly resolveWithNewModule chalk@1.1.1 checking installable status
+398 silly cache add args [ 'chalk@^1.0.0', null ]
+399 verbose cache add spec chalk@^1.0.0
+400 silly cache add parsed spec Result {
+400 silly cache add   raw: 'chalk@^1.0.0',
+400 silly cache add   scope: null,
+400 silly cache add   name: 'chalk',
+400 silly cache add   rawSpec: '^1.0.0',
+400 silly cache add   spec: '>=1.0.0 <2.0.0',
+400 silly cache add   type: 'range' }
+401 silly addNamed chalk@>=1.0.0 <2.0.0
+402 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for chalk
+403 silly addNameRange { name: 'chalk', range: '>=1.0.0 <2.0.0', hasData: false }
+404 silly mapToRegistry name chalk
+405 silly mapToRegistry using default registry
+406 silly mapToRegistry registry https://registry.npmjs.org/
+407 silly mapToRegistry uri https://registry.npmjs.org/chalk
+408 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+409 silly resolveWithNewModule minimist@1.2.0 checking installable status
+410 silly cache add args [ 'minimist@^1.1.0', null ]
+411 verbose cache add spec minimist@^1.1.0
+412 silly cache add parsed spec Result {
+412 silly cache add   raw: 'minimist@^1.1.0',
+412 silly cache add   scope: null,
+412 silly cache add   name: 'minimist',
+412 silly cache add   rawSpec: '^1.1.0',
+412 silly cache add   spec: '>=1.1.0 <2.0.0',
+412 silly cache add   type: 'range' }
+413 silly addNamed minimist@>=1.1.0 <2.0.0
+414 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for minimist
+415 silly addNameRange { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: false }
+416 silly mapToRegistry name minimist
+417 silly mapToRegistry using default registry
+418 silly mapToRegistry registry https://registry.npmjs.org/
+419 silly mapToRegistry uri https://registry.npmjs.org/minimist
+420 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+421 silly resolveWithNewModule pretty-hrtime@1.0.1 checking installable status
+422 silly cache add args [ 'pretty-hrtime@^1.0.0', null ]
+423 verbose cache add spec pretty-hrtime@^1.0.0
+424 silly cache add parsed spec Result {
+424 silly cache add   raw: 'pretty-hrtime@^1.0.0',
+424 silly cache add   scope: null,
+424 silly cache add   name: 'pretty-hrtime',
+424 silly cache add   rawSpec: '^1.0.0',
+424 silly cache add   spec: '>=1.0.0 <2.0.0',
+424 silly cache add   type: 'range' }
+425 silly addNamed pretty-hrtime@>=1.0.0 <2.0.0
+426 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for pretty-hrtime
+427 silly addNameRange { name: 'pretty-hrtime',
+427 silly addNameRange   range: '>=1.0.0 <2.0.0',
+427 silly addNameRange   hasData: false }
+428 silly mapToRegistry name pretty-hrtime
+429 silly mapToRegistry using default registry
+430 silly mapToRegistry registry https://registry.npmjs.org/
+431 silly mapToRegistry uri https://registry.npmjs.org/pretty-hrtime
+432 verbose addNameRange registry:https://registry.npmjs.org/pretty-hrtime not in flight; fetching
+433 silly resolveWithNewModule tildify@1.1.2 checking installable status
+434 silly cache add args [ 'tildify@^1.0.0', null ]
+435 verbose cache add spec tildify@^1.0.0
+436 silly cache add parsed spec Result {
+436 silly cache add   raw: 'tildify@^1.0.0',
+436 silly cache add   scope: null,
+436 silly cache add   name: 'tildify',
+436 silly cache add   rawSpec: '^1.0.0',
+436 silly cache add   spec: '>=1.0.0 <2.0.0',
+436 silly cache add   type: 'range' }
+437 silly addNamed tildify@>=1.0.0 <2.0.0
+438 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for tildify
+439 silly addNameRange { name: 'tildify', range: '>=1.0.0 <2.0.0', hasData: false }
+440 silly mapToRegistry name tildify
+441 silly mapToRegistry using default registry
+442 silly mapToRegistry registry https://registry.npmjs.org/
+443 silly mapToRegistry uri https://registry.npmjs.org/tildify
+444 verbose addNameRange registry:https://registry.npmjs.org/tildify not in flight; fetching
+445 silly resolveWithNewModule orchestrator@0.3.7 checking installable status
+446 silly cache add args [ 'orchestrator@^0.3.0', null ]
+447 verbose cache add spec orchestrator@^0.3.0
+448 silly cache add parsed spec Result {
+448 silly cache add   raw: 'orchestrator@^0.3.0',
+448 silly cache add   scope: null,
+448 silly cache add   name: 'orchestrator',
+448 silly cache add   rawSpec: '^0.3.0',
+448 silly cache add   spec: '>=0.3.0 <0.4.0',
+448 silly cache add   type: 'range' }
+449 silly addNamed orchestrator@>=0.3.0 <0.4.0
+450 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for orchestrator
+451 silly addNameRange { name: 'orchestrator', range: '>=0.3.0 <0.4.0', hasData: false }
+452 silly mapToRegistry name orchestrator
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npmjs.org/
+455 silly mapToRegistry uri https://registry.npmjs.org/orchestrator
+456 verbose addNameRange registry:https://registry.npmjs.org/orchestrator not in flight; fetching
+457 silly resolveWithNewModule v8flags@2.0.10 checking installable status
+458 silly cache add args [ 'v8flags@^2.0.2', null ]
+459 verbose cache add spec v8flags@^2.0.2
+460 silly cache add parsed spec Result {
+460 silly cache add   raw: 'v8flags@^2.0.2',
+460 silly cache add   scope: null,
+460 silly cache add   name: 'v8flags',
+460 silly cache add   rawSpec: '^2.0.2',
+460 silly cache add   spec: '>=2.0.2 <3.0.0',
+460 silly cache add   type: 'range' }
+461 silly addNamed v8flags@>=2.0.2 <3.0.0
+462 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for v8flags
+463 silly addNameRange { name: 'v8flags', range: '>=2.0.2 <3.0.0', hasData: false }
+464 silly mapToRegistry name v8flags
+465 silly mapToRegistry using default registry
+466 silly mapToRegistry registry https://registry.npmjs.org/
+467 silly mapToRegistry uri https://registry.npmjs.org/v8flags
+468 verbose addNameRange registry:https://registry.npmjs.org/v8flags not in flight; fetching
+469 silly resolveWithNewModule liftoff@2.2.0 checking installable status
+470 silly cache add args [ 'liftoff@^2.1.0', null ]
+471 verbose cache add spec liftoff@^2.1.0
+472 silly cache add parsed spec Result {
+472 silly cache add   raw: 'liftoff@^2.1.0',
+472 silly cache add   scope: null,
+472 silly cache add   name: 'liftoff',
+472 silly cache add   rawSpec: '^2.1.0',
+472 silly cache add   spec: '>=2.1.0 <3.0.0',
+472 silly cache add   type: 'range' }
+473 silly addNamed liftoff@>=2.1.0 <3.0.0
+474 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for liftoff
+475 silly addNameRange { name: 'liftoff', range: '>=2.1.0 <3.0.0', hasData: false }
+476 silly mapToRegistry name liftoff
+477 silly mapToRegistry using default registry
+478 silly mapToRegistry registry https://registry.npmjs.org/
+479 silly mapToRegistry uri https://registry.npmjs.org/liftoff
+480 verbose addNameRange registry:https://registry.npmjs.org/liftoff not in flight; fetching
+481 silly resolveWithNewModule semver@4.3.6 checking installable status
+482 silly cache add args [ 'semver@^4.1.0', null ]
+483 verbose cache add spec semver@^4.1.0
+484 silly cache add parsed spec Result {
+484 silly cache add   raw: 'semver@^4.1.0',
+484 silly cache add   scope: null,
+484 silly cache add   name: 'semver',
+484 silly cache add   rawSpec: '^4.1.0',
+484 silly cache add   spec: '>=4.1.0 <5.0.0',
+484 silly cache add   type: 'range' }
+485 silly addNamed semver@>=4.1.0 <5.0.0
+486 verbose addNamed ">=4.1.0 <5.0.0" is a valid semver range for semver
+487 silly addNameRange { name: 'semver', range: '>=4.1.0 <5.0.0', hasData: false }
+488 silly mapToRegistry name semver
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry uri https://registry.npmjs.org/semver
+492 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+493 silly resolveWithNewModule vinyl-fs@0.3.14 checking installable status
+494 silly cache add args [ 'vinyl-fs@^0.3.0', null ]
+495 verbose cache add spec vinyl-fs@^0.3.0
+496 silly cache add parsed spec Result {
+496 silly cache add   raw: 'vinyl-fs@^0.3.0',
+496 silly cache add   scope: null,
+496 silly cache add   name: 'vinyl-fs',
+496 silly cache add   rawSpec: '^0.3.0',
+496 silly cache add   spec: '>=0.3.0 <0.4.0',
+496 silly cache add   type: 'range' }
+497 silly addNamed vinyl-fs@>=0.3.0 <0.4.0
+498 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for vinyl-fs
+499 silly addNameRange { name: 'vinyl-fs', range: '>=0.3.0 <0.4.0', hasData: false }
+500 silly mapToRegistry name vinyl-fs
+501 silly mapToRegistry using default registry
+502 silly mapToRegistry registry https://registry.npmjs.org/
+503 silly mapToRegistry uri https://registry.npmjs.org/vinyl-fs
+504 verbose addNameRange registry:https://registry.npmjs.org/vinyl-fs not in flight; fetching
+505 verbose get https://registry.npmjs.org/deprecated not expired, no request
+506 silly addNameRange number 2 { name: 'deprecated', range: '>=0.0.1 <0.0.2', hasData: true }
+507 silly addNameRange versions [ 'deprecated', [ '0.0.1' ] ]
+508 silly addNamed deprecated@0.0.1
+509 verbose addNamed "0.0.1" is a plain semver version for deprecated
+510 verbose get https://registry.npmjs.org/archy not expired, no request
+511 silly addNameRange number 2 { name: 'archy', range: '>=1.0.0 <2.0.0', hasData: true }
+512 silly addNameRange versions [ 'archy', [ '0.0.0', '0.0.1', '0.0.2', '1.0.0' ] ]
+513 silly addNamed archy@1.0.0
+514 verbose addNamed "1.0.0" is a plain semver version for archy
+515 verbose get https://registry.npmjs.org/gulp-util not expired, no request
+516 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.0 <4.0.0', hasData: true }
+517 silly addNameRange versions [ 'gulp-util',
+517 silly addNameRange   [ '0.0.1',
+517 silly addNameRange     '1.0.0',
+517 silly addNameRange     '1.1.0',
+517 silly addNameRange     '1.1.1',
+517 silly addNameRange     '1.2.0',
+517 silly addNameRange     '1.3.0',
+517 silly addNameRange     '2.0.0',
+517 silly addNameRange     '2.1.1',
+517 silly addNameRange     '2.1.2',
+517 silly addNameRange     '2.1.3',
+517 silly addNameRange     '2.1.4',
+517 silly addNameRange     '2.2.0',
+517 silly addNameRange     '2.2.1',
+517 silly addNameRange     '2.2.2',
+517 silly addNameRange     '2.2.3',
+517 silly addNameRange     '2.2.5',
+517 silly addNameRange     '2.2.6',
+517 silly addNameRange     '2.2.7',
+517 silly addNameRange     '2.2.8',
+517 silly addNameRange     '2.2.9',
+517 silly addNameRange     '2.2.10',
+517 silly addNameRange     '2.2.11',
+517 silly addNameRange     '2.2.12',
+517 silly addNameRange     '2.2.13',
+517 silly addNameRange     '2.2.14',
+517 silly addNameRange     '2.2.15',
+517 silly addNameRange     '2.2.16',
+517 silly addNameRange     '2.2.17',
+517 silly addNameRange     '2.2.18',
+517 silly addNameRange     '2.2.19',
+517 silly addNameRange     '2.2.20',
+517 silly addNameRange     '3.0.0',
+517 silly addNameRange     '3.0.1',
+517 silly addNameRange     '3.0.2',
+517 silly addNameRange     '3.0.3',
+517 silly addNameRange     '3.0.4',
+517 silly addNameRange     '3.0.5',
+517 silly addNameRange     '3.0.6',
+517 silly addNameRange     '3.0.7' ] ]
+518 silly addNamed gulp-util@3.0.7
+519 verbose addNamed "3.0.7" is a plain semver version for gulp-util
+520 verbose get https://registry.npmjs.org/interpret not expired, no request
+521 silly addNameRange number 2 { name: 'interpret', range: '>=0.6.2 <0.7.0', hasData: true }
+522 silly addNameRange versions [ 'interpret',
+522 silly addNameRange   [ '0.1.0',
+522 silly addNameRange     '0.2.0',
+522 silly addNameRange     '0.3.0',
+522 silly addNameRange     '0.3.1',
+522 silly addNameRange     '0.3.2',
+522 silly addNameRange     '0.3.3',
+522 silly addNameRange     '0.3.4',
+522 silly addNameRange     '0.3.5',
+522 silly addNameRange     '0.3.6',
+522 silly addNameRange     '0.3.7',
+522 silly addNameRange     '0.3.8',
+522 silly addNameRange     '0.3.9',
+522 silly addNameRange     '0.3.10',
+522 silly addNameRange     '0.4.0',
+522 silly addNameRange     '0.4.1',
+522 silly addNameRange     '0.4.2',
+522 silly addNameRange     '0.4.3',
+522 silly addNameRange     '0.5.0',
+522 silly addNameRange     '0.5.1',
+522 silly addNameRange     '0.5.2',
+522 silly addNameRange     '0.6.0',
+522 silly addNameRange     '0.6.1',
+522 silly addNameRange     '0.6.2',
+522 silly addNameRange     '0.6.3',
+522 silly addNameRange     '0.6.4',
+522 silly addNameRange     '0.6.5',
+522 silly addNameRange     '0.6.6',
+522 silly addNameRange     '1.0.0' ] ]
+523 silly addNamed interpret@0.6.6
+524 verbose addNamed "0.6.6" is a plain semver version for interpret
+525 verbose get https://registry.npmjs.org/chalk not expired, no request
+526 silly addNameRange number 2 { name: 'chalk', range: '>=1.0.0 <2.0.0', hasData: true }
+527 silly addNameRange versions [ 'chalk',
+527 silly addNameRange   [ '0.1.0',
+527 silly addNameRange     '0.1.1',
+527 silly addNameRange     '0.2.0',
+527 silly addNameRange     '0.2.1',
+527 silly addNameRange     '0.3.0',
+527 silly addNameRange     '0.4.0',
+527 silly addNameRange     '0.5.0',
+527 silly addNameRange     '0.5.1',
+527 silly addNameRange     '1.0.0',
+527 silly addNameRange     '1.1.0',
+527 silly addNameRange     '1.1.1' ] ]
+528 silly addNamed chalk@1.1.1
+529 verbose addNamed "1.1.1" is a plain semver version for chalk
+530 verbose get https://registry.npmjs.org/minimist not expired, no request
+531 silly addNameRange number 2 { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: true }
+532 silly addNameRange versions [ 'minimist',
+532 silly addNameRange   [ '0.0.0',
+532 silly addNameRange     '0.0.1',
+532 silly addNameRange     '0.0.2',
+532 silly addNameRange     '0.0.3',
+532 silly addNameRange     '0.0.4',
+532 silly addNameRange     '0.0.5',
+532 silly addNameRange     '0.0.6',
+532 silly addNameRange     '0.0.7',
+532 silly addNameRange     '0.0.8',
+532 silly addNameRange     '0.0.9',
+532 silly addNameRange     '0.0.10',
+532 silly addNameRange     '0.1.0',
+532 silly addNameRange     '0.2.0',
+532 silly addNameRange     '1.0.0',
+532 silly addNameRange     '1.1.0',
+532 silly addNameRange     '1.1.1',
+532 silly addNameRange     '1.1.2',
+532 silly addNameRange     '1.1.3',
+532 silly addNameRange     '1.2.0' ] ]
+533 silly addNamed minimist@1.2.0
+534 verbose addNamed "1.2.0" is a plain semver version for minimist
+535 verbose get https://registry.npmjs.org/pretty-hrtime not expired, no request
+536 silly addNameRange number 2 { name: 'pretty-hrtime', range: '>=1.0.0 <2.0.0', hasData: true }
+537 silly addNameRange versions [ 'pretty-hrtime',
+537 silly addNameRange   [ '0.2.0', '0.2.1', '0.2.2', '1.0.0', '1.0.1' ] ]
+538 silly addNamed pretty-hrtime@1.0.1
+539 verbose addNamed "1.0.1" is a plain semver version for pretty-hrtime
+540 verbose get https://registry.npmjs.org/tildify not expired, no request
+541 silly addNameRange number 2 { name: 'tildify', range: '>=1.0.0 <2.0.0', hasData: true }
+542 silly addNameRange versions [ 'tildify',
+542 silly addNameRange   [ '0.1.0', '0.2.0', '1.0.0', '1.1.0', '1.1.1', '1.1.2' ] ]
+543 silly addNamed tildify@1.1.2
+544 verbose addNamed "1.1.2" is a plain semver version for tildify
+545 verbose get https://registry.npmjs.org/orchestrator not expired, no request
+546 silly addNameRange number 2 { name: 'orchestrator', range: '>=0.3.0 <0.4.0', hasData: true }
+547 silly addNameRange versions [ 'orchestrator',
+547 silly addNameRange   [ '0.0.2',
+547 silly addNameRange     '0.0.3',
+547 silly addNameRange     '0.0.4',
+547 silly addNameRange     '0.0.5',
+547 silly addNameRange     '0.0.6',
+547 silly addNameRange     '0.0.7',
+547 silly addNameRange     '0.0.8',
+547 silly addNameRange     '0.1.0',
+547 silly addNameRange     '0.2.0',
+547 silly addNameRange     '0.2.1',
+547 silly addNameRange     '0.3.0',
+547 silly addNameRange     '0.3.1',
+547 silly addNameRange     '0.3.3',
+547 silly addNameRange     '0.3.4',
+547 silly addNameRange     '0.3.5',
+547 silly addNameRange     '0.3.6',
+547 silly addNameRange     '0.3.7' ] ]
+548 silly addNamed orchestrator@0.3.7
+549 verbose addNamed "0.3.7" is a plain semver version for orchestrator
+550 verbose get https://registry.npmjs.org/v8flags not expired, no request
+551 silly addNameRange number 2 { name: 'v8flags', range: '>=2.0.2 <3.0.0', hasData: true }
+552 silly addNameRange versions [ 'v8flags',
+552 silly addNameRange   [ '0.1.0',
+552 silly addNameRange     '0.2.0',
+552 silly addNameRange     '0.3.0',
+552 silly addNameRange     '1.0.0',
+552 silly addNameRange     '1.0.1',
+552 silly addNameRange     '1.0.2',
+552 silly addNameRange     '1.0.3',
+552 silly addNameRange     '1.0.4',
+552 silly addNameRange     '1.0.5',
+552 silly addNameRange     '1.0.6',
+552 silly addNameRange     '1.0.7',
+552 silly addNameRange     '1.0.8',
+552 silly addNameRange     '2.0.0',
+552 silly addNameRange     '2.0.2',
+552 silly addNameRange     '2.0.3',
+552 silly addNameRange     '2.0.4',
+552 silly addNameRange     '2.0.5',
+552 silly addNameRange     '2.0.6',
+552 silly addNameRange     '2.0.7',
+552 silly addNameRange     '2.0.8',
+552 silly addNameRange     '2.0.9',
+552 silly addNameRange     '2.0.10' ] ]
+553 silly addNamed v8flags@2.0.10
+554 verbose addNamed "2.0.10" is a plain semver version for v8flags
+555 verbose get https://registry.npmjs.org/liftoff not expired, no request
+556 silly addNameRange number 2 { name: 'liftoff', range: '>=2.1.0 <3.0.0', hasData: true }
+557 silly addNameRange versions [ 'liftoff',
+557 silly addNameRange   [ '0.1.0',
+557 silly addNameRange     '0.2.0',
+557 silly addNameRange     '0.3.0',
+557 silly addNameRange     '0.4.0',
+557 silly addNameRange     '0.5.0',
+557 silly addNameRange     '0.6.0',
+557 silly addNameRange     '0.7.0',
+557 silly addNameRange     '0.8.0',
+557 silly addNameRange     '0.8.1',
+557 silly addNameRange     '0.8.2',
+557 silly addNameRange     '0.8.3',
+557 silly addNameRange     '0.8.4',
+557 silly addNameRange     '0.8.5',
+557 silly addNameRange     '0.8.6',
+557 silly addNameRange     '0.8.7',
+557 silly addNameRange     '0.9.0',
+557 silly addNameRange     '0.9.1',
+557 silly addNameRange     '0.9.2',
+557 silly addNameRange     '0.9.3',
+557 silly addNameRange     '0.9.4',
+557 silly addNameRange     '0.9.5',
+557 silly addNameRange     '0.9.6',
+557 silly addNameRange     '0.9.7',
+557 silly addNameRange     '0.9.8',
+557 silly addNameRange     '0.10.0',
+557 silly addNameRange     '0.11.0',
+557 silly addNameRange     '0.11.1',
+557 silly addNameRange     '0.11.2',
+557 silly addNameRange     '0.11.3',
+557 silly addNameRange     '0.12.0',
+557 silly addNameRange     '0.12.1',
+557 silly addNameRange     '0.13.0',
+557 silly addNameRange     '0.13.1',
+557 silly addNameRange     '0.13.2',
+557 silly addNameRange     '0.13.3',
+557 silly addNameRange     '0.13.5',
+557 silly addNameRange     '0.13.6',
+557 silly addNameRange     '1.0.0',
+557 silly addNameRange     '1.0.2',
+557 silly addNameRange     '1.0.3',
+557 silly addNameRange     '1.0.4',
+557 silly addNameRange     '2.0.0',
+557 silly addNameRange     '2.0.1',
+557 silly addNameRange     '2.0.2',
+557 silly addNameRange     '2.0.3',
+557 silly addNameRange     '2.1.0',
+557 silly addNameRange     '2.2.0' ] ]
+558 silly addNamed liftoff@2.2.0
+559 verbose addNamed "2.2.0" is a plain semver version for liftoff
+560 verbose get https://registry.npmjs.org/semver not expired, no request
+561 silly addNameRange number 2 { name: 'semver', range: '>=4.1.0 <5.0.0', hasData: true }
+562 silly addNameRange versions [ 'semver',
+562 silly addNameRange   [ '1.0.0',
+562 silly addNameRange     '1.0.1',
+562 silly addNameRange     '1.0.2',
+562 silly addNameRange     '1.0.3',
+562 silly addNameRange     '1.0.4',
+562 silly addNameRange     '1.0.5',
+562 silly addNameRange     '1.0.6',
+562 silly addNameRange     '1.0.7',
+562 silly addNameRange     '1.0.8',
+562 silly addNameRange     '1.0.9',
+562 silly addNameRange     '1.0.10',
+562 silly addNameRange     '1.0.11',
+562 silly addNameRange     '1.0.12',
+562 silly addNameRange     '1.0.13',
+562 silly addNameRange     '1.0.14',
+562 silly addNameRange     '1.1.0',
+562 silly addNameRange     '1.1.1',
+562 silly addNameRange     '1.1.2',
+562 silly addNameRange     '1.1.3',
+562 silly addNameRange     '1.1.4',
+562 silly addNameRange     '2.0.0-alpha',
+562 silly addNameRange     '2.0.0-beta',
+562 silly addNameRange     '2.0.1',
+562 silly addNameRange     '2.0.2',
+562 silly addNameRange     '2.0.3',
+562 silly addNameRange     '2.0.4',
+562 silly addNameRange     '2.0.5',
+562 silly addNameRange     '2.0.6',
+562 silly addNameRange     '2.0.7',
+562 silly addNameRange     '2.0.8',
+562 silly addNameRange     '2.0.9',
+562 silly addNameRange     '2.0.10',
+562 silly addNameRange     '2.0.11',
+562 silly addNameRange     '2.1.0',
+562 silly addNameRange     '2.2.0',
+562 silly addNameRange     '2.2.1',
+562 silly addNameRange     '2.3.0',
+562 silly addNameRange     '2.3.1',
+562 silly addNameRange     '2.3.2',
+562 silly addNameRange     '3.0.0',
+562 silly addNameRange     '3.0.1',
+562 silly addNameRange     '4.0.0',
+562 silly addNameRange     '4.0.2',
+562 silly addNameRange     '4.0.3',
+562 silly addNameRange     '4.1.0',
+562 silly addNameRange     '4.1.1',
+562 silly addNameRange     '4.2.0',
+562 silly addNameRange     '4.2.1',
+562 silly addNameRange     '4.2.2',
+562 silly addNameRange     '4.3.0',
+562 silly addNameRange     '4.3.1',
+562 silly addNameRange     '4.3.2',
+562 silly addNameRange     '4.3.3',
+562 silly addNameRange     '4.3.4',
+562 silly addNameRange     '4.3.5',
+562 silly addNameRange     '4.3.6',
+562 silly addNameRange     '5.0.0',
+562 silly addNameRange     '5.0.1',
+562 silly addNameRange     '5.0.2',
+562 silly addNameRange     '5.0.3',
+562 silly addNameRange     '5.1.0' ] ]
+563 silly addNamed semver@4.3.6
+564 verbose addNamed "4.3.6" is a plain semver version for semver
+565 verbose get https://registry.npmjs.org/vinyl-fs not expired, no request
+566 silly addNameRange number 2 { name: 'vinyl-fs', range: '>=0.3.0 <0.4.0', hasData: true }
+567 silly addNameRange versions [ 'vinyl-fs',
+567 silly addNameRange   [ '0.0.1',
+567 silly addNameRange     '0.0.2',
+567 silly addNameRange     '0.1.0',
+567 silly addNameRange     '0.1.1',
+567 silly addNameRange     '0.1.2',
+567 silly addNameRange     '0.1.3',
+567 silly addNameRange     '0.1.4',
+567 silly addNameRange     '0.2.0',
+567 silly addNameRange     '0.2.1',
+567 silly addNameRange     '0.3.0',
+567 silly addNameRange     '0.3.1',
+567 silly addNameRange     '0.3.2',
+567 silly addNameRange     '0.3.3',
+567 silly addNameRange     '0.3.4',
+567 silly addNameRange     '0.3.5',
+567 silly addNameRange     '0.3.6',
+567 silly addNameRange     '0.3.7',
+567 silly addNameRange     '0.3.8',
+567 silly addNameRange     '0.3.9',
+567 silly addNameRange     '0.3.10',
+567 silly addNameRange     '0.3.11',
+567 silly addNameRange     '0.3.12',
+567 silly addNameRange     '0.3.13',
+567 silly addNameRange     '1.0.0',
+567 silly addNameRange     '0.3.14',
+567 silly addNameRange     '2.0.0',
+567 silly addNameRange     '2.1.0',
+567 silly addNameRange     '2.1.1',
+567 silly addNameRange     '2.2.0',
+567 silly addNameRange     '2.2.1' ] ]
+568 silly addNamed vinyl-fs@0.3.14
+569 verbose addNamed "0.3.14" is a plain semver version for vinyl-fs
+570 silly cache afterAdd deprecated@0.0.1
+571 verbose afterAdd /home/misael/.npm/deprecated/0.0.1/package/package.json not in flight; writing
+572 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+573 silly cache afterAdd archy@1.0.0
+574 verbose afterAdd /home/misael/.npm/archy/1.0.0/package/package.json not in flight; writing
+575 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+576 silly cache afterAdd gulp-util@3.0.7
+577 verbose afterAdd /home/misael/.npm/gulp-util/3.0.7/package/package.json not in flight; writing
+578 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+579 silly cache afterAdd interpret@0.6.6
+580 verbose afterAdd /home/misael/.npm/interpret/0.6.6/package/package.json not in flight; writing
+581 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+582 silly cache afterAdd chalk@1.1.1
+583 verbose afterAdd /home/misael/.npm/chalk/1.1.1/package/package.json not in flight; writing
+584 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+585 silly cache afterAdd minimist@1.2.0
+586 verbose afterAdd /home/misael/.npm/minimist/1.2.0/package/package.json not in flight; writing
+587 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+588 silly cache afterAdd pretty-hrtime@1.0.1
+589 verbose afterAdd /home/misael/.npm/pretty-hrtime/1.0.1/package/package.json not in flight; writing
+590 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+591 silly cache afterAdd tildify@1.1.2
+592 verbose afterAdd /home/misael/.npm/tildify/1.1.2/package/package.json not in flight; writing
+593 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+594 silly cache afterAdd orchestrator@0.3.7
+595 verbose afterAdd /home/misael/.npm/orchestrator/0.3.7/package/package.json not in flight; writing
+596 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+597 silly cache afterAdd v8flags@2.0.10
+598 verbose afterAdd /home/misael/.npm/v8flags/2.0.10/package/package.json not in flight; writing
+599 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+600 silly cache afterAdd liftoff@2.2.0
+601 verbose afterAdd /home/misael/.npm/liftoff/2.2.0/package/package.json not in flight; writing
+602 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+603 silly cache afterAdd semver@4.3.6
+604 verbose afterAdd /home/misael/.npm/semver/4.3.6/package/package.json not in flight; writing
+605 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+606 silly cache afterAdd vinyl-fs@0.3.14
+607 verbose afterAdd /home/misael/.npm/vinyl-fs/0.3.14/package/package.json not in flight; writing
+608 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+609 verbose afterAdd /home/misael/.npm/deprecated/0.0.1/package/package.json written
+610 verbose afterAdd /home/misael/.npm/gulp-util/3.0.7/package/package.json written
+611 verbose afterAdd /home/misael/.npm/interpret/0.6.6/package/package.json written
+612 verbose afterAdd /home/misael/.npm/archy/1.0.0/package/package.json written
+613 verbose afterAdd /home/misael/.npm/pretty-hrtime/1.0.1/package/package.json written
+614 verbose afterAdd /home/misael/.npm/tildify/1.1.2/package/package.json written
+615 verbose afterAdd /home/misael/.npm/orchestrator/0.3.7/package/package.json written
+616 verbose afterAdd /home/misael/.npm/v8flags/2.0.10/package/package.json written
+617 verbose afterAdd /home/misael/.npm/minimist/1.2.0/package/package.json written
+618 verbose afterAdd /home/misael/.npm/liftoff/2.2.0/package/package.json written
+619 verbose afterAdd /home/misael/.npm/chalk/1.1.1/package/package.json written
+620 verbose afterAdd /home/misael/.npm/semver/4.3.6/package/package.json written
+621 verbose afterAdd /home/misael/.npm/vinyl-fs/0.3.14/package/package.json written
+622 silly fetchNamedPackageData ansi-styles
+623 silly mapToRegistry name ansi-styles
+624 silly mapToRegistry using default registry
+625 silly mapToRegistry registry https://registry.npmjs.org/
+626 silly mapToRegistry uri https://registry.npmjs.org/ansi-styles
+627 silly fetchNamedPackageData escape-string-regexp
+628 silly mapToRegistry name escape-string-regexp
+629 silly mapToRegistry using default registry
+630 silly mapToRegistry registry https://registry.npmjs.org/
+631 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+632 silly fetchNamedPackageData has-ansi
+633 silly mapToRegistry name has-ansi
+634 silly mapToRegistry using default registry
+635 silly mapToRegistry registry https://registry.npmjs.org/
+636 silly mapToRegistry uri https://registry.npmjs.org/has-ansi
+637 silly fetchNamedPackageData strip-ansi
+638 silly mapToRegistry name strip-ansi
+639 silly mapToRegistry using default registry
+640 silly mapToRegistry registry https://registry.npmjs.org/
+641 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+642 silly fetchNamedPackageData supports-color
+643 silly mapToRegistry name supports-color
+644 silly mapToRegistry using default registry
+645 silly mapToRegistry registry https://registry.npmjs.org/
+646 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+647 verbose request uri https://registry.npmjs.org/ansi-styles
+648 verbose request no auth needed
+649 info attempt registry request try #1 at 15:12:33
+650 verbose etag "EV2PWNKG7E0JWLFLC91SGWA9O"
+651 http request GET https://registry.npmjs.org/ansi-styles
+652 verbose request uri https://registry.npmjs.org/escape-string-regexp
+653 verbose request no auth needed
+654 info attempt registry request try #1 at 15:12:33
+655 verbose etag "BO6X0Q949NALK20NKPPHXQBXY"
+656 http request GET https://registry.npmjs.org/escape-string-regexp
+657 verbose request uri https://registry.npmjs.org/has-ansi
+658 verbose request no auth needed
+659 info attempt registry request try #1 at 15:12:33
+660 verbose etag "BBDMGI1OGAVY5ZWT2355AH7Y1"
+661 http request GET https://registry.npmjs.org/has-ansi
+662 verbose request uri https://registry.npmjs.org/strip-ansi
+663 verbose request no auth needed
+664 info attempt registry request try #1 at 15:12:33
+665 verbose etag "9PSPFNUEMY709RG0YI7YR0RYU"
+666 http request GET https://registry.npmjs.org/strip-ansi
+667 verbose request uri https://registry.npmjs.org/supports-color
+668 verbose request no auth needed
+669 info attempt registry request try #1 at 15:12:33
+670 verbose etag "91QPISXHGSPQQAUI4IY5OE9UJ"
+671 http request GET https://registry.npmjs.org/supports-color
+672 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+673 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+674 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+675 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+676 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+677 info attempt registry request try #2 at 15:12:43
+678 verbose etag "EV2PWNKG7E0JWLFLC91SGWA9O"
+679 http request GET https://registry.npmjs.org/ansi-styles
+680 info attempt registry request try #2 at 15:12:43
+681 verbose etag "BO6X0Q949NALK20NKPPHXQBXY"
+682 http request GET https://registry.npmjs.org/escape-string-regexp
+683 info attempt registry request try #2 at 15:12:43
+684 verbose etag "BBDMGI1OGAVY5ZWT2355AH7Y1"
+685 http request GET https://registry.npmjs.org/has-ansi
+686 info attempt registry request try #2 at 15:12:43
+687 verbose etag "9PSPFNUEMY709RG0YI7YR0RYU"
+688 http request GET https://registry.npmjs.org/strip-ansi
+689 info attempt registry request try #2 at 15:12:43
+690 verbose etag "91QPISXHGSPQQAUI4IY5OE9UJ"
+691 http request GET https://registry.npmjs.org/supports-color
+692 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+693 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+694 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+695 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+696 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+697 info attempt registry request try #3 at 15:13:43
+698 verbose etag "9PSPFNUEMY709RG0YI7YR0RYU"
+699 http request GET https://registry.npmjs.org/strip-ansi
+700 info attempt registry request try #3 at 15:13:43
+701 verbose etag "EV2PWNKG7E0JWLFLC91SGWA9O"
+702 http request GET https://registry.npmjs.org/ansi-styles
+703 info attempt registry request try #3 at 15:13:43
+704 verbose etag "BO6X0Q949NALK20NKPPHXQBXY"
+705 http request GET https://registry.npmjs.org/escape-string-regexp
+706 info attempt registry request try #3 at 15:13:43
+707 verbose etag "BBDMGI1OGAVY5ZWT2355AH7Y1"
+708 http request GET https://registry.npmjs.org/has-ansi
+709 info attempt registry request try #3 at 15:13:43
+710 verbose etag "91QPISXHGSPQQAUI4IY5OE9UJ"
+711 http request GET https://registry.npmjs.org/supports-color
+712 silly get cb [ 304, undefined ]
+713 verbose etag https://registry.npmjs.org/strip-ansi from cache
+714 verbose get saving strip-ansi to /home/misael/.npm/registry.npmjs.org/strip-ansi/.cache.json
+715 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+716 silly get cb [ 304, undefined ]
+717 verbose etag https://registry.npmjs.org/ansi-styles from cache
+718 verbose get saving ansi-styles to /home/misael/.npm/registry.npmjs.org/ansi-styles/.cache.json
+719 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+720 silly get cb [ 304, undefined ]
+721 verbose etag https://registry.npmjs.org/escape-string-regexp from cache
+722 verbose get saving escape-string-regexp to /home/misael/.npm/registry.npmjs.org/escape-string-regexp/.cache.json
+723 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+724 silly get cb [ 304, undefined ]
+725 verbose etag https://registry.npmjs.org/has-ansi from cache
+726 verbose get saving has-ansi to /home/misael/.npm/registry.npmjs.org/has-ansi/.cache.json
+727 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+728 silly get cb [ 304, undefined ]
+729 verbose etag https://registry.npmjs.org/supports-color from cache
+730 verbose get saving supports-color to /home/misael/.npm/registry.npmjs.org/supports-color/.cache.json
+731 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+732 silly resolveWithNewModule ansi-styles@2.2.0 checking installable status
+733 silly cache add args [ 'ansi-styles@^2.1.0', null ]
+734 verbose cache add spec ansi-styles@^2.1.0
+735 silly cache add parsed spec Result {
+735 silly cache add   raw: 'ansi-styles@^2.1.0',
+735 silly cache add   scope: null,
+735 silly cache add   name: 'ansi-styles',
+735 silly cache add   rawSpec: '^2.1.0',
+735 silly cache add   spec: '>=2.1.0 <3.0.0',
+735 silly cache add   type: 'range' }
+736 silly addNamed ansi-styles@>=2.1.0 <3.0.0
+737 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for ansi-styles
+738 silly addNameRange { name: 'ansi-styles', range: '>=2.1.0 <3.0.0', hasData: false }
+739 silly mapToRegistry name ansi-styles
+740 silly mapToRegistry using default registry
+741 silly mapToRegistry registry https://registry.npmjs.org/
+742 silly mapToRegistry uri https://registry.npmjs.org/ansi-styles
+743 verbose addNameRange registry:https://registry.npmjs.org/ansi-styles not in flight; fetching
+744 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+745 silly cache add args [ 'escape-string-regexp@^1.0.2', null ]
+746 verbose cache add spec escape-string-regexp@^1.0.2
+747 silly cache add parsed spec Result {
+747 silly cache add   raw: 'escape-string-regexp@^1.0.2',
+747 silly cache add   scope: null,
+747 silly cache add   name: 'escape-string-regexp',
+747 silly cache add   rawSpec: '^1.0.2',
+747 silly cache add   spec: '>=1.0.2 <2.0.0',
+747 silly cache add   type: 'range' }
+748 silly addNamed escape-string-regexp@>=1.0.2 <2.0.0
+749 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for escape-string-regexp
+750 silly addNameRange { name: 'escape-string-regexp',
+750 silly addNameRange   range: '>=1.0.2 <2.0.0',
+750 silly addNameRange   hasData: false }
+751 silly mapToRegistry name escape-string-regexp
+752 silly mapToRegistry using default registry
+753 silly mapToRegistry registry https://registry.npmjs.org/
+754 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+755 verbose addNameRange registry:https://registry.npmjs.org/escape-string-regexp not in flight; fetching
+756 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+757 silly cache add args [ 'strip-ansi@^3.0.0', null ]
+758 verbose cache add spec strip-ansi@^3.0.0
+759 silly cache add parsed spec Result {
+759 silly cache add   raw: 'strip-ansi@^3.0.0',
+759 silly cache add   scope: null,
+759 silly cache add   name: 'strip-ansi',
+759 silly cache add   rawSpec: '^3.0.0',
+759 silly cache add   spec: '>=3.0.0 <4.0.0',
+759 silly cache add   type: 'range' }
+760 silly addNamed strip-ansi@>=3.0.0 <4.0.0
+761 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for strip-ansi
+762 silly addNameRange { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: false }
+763 silly mapToRegistry name strip-ansi
+764 silly mapToRegistry using default registry
+765 silly mapToRegistry registry https://registry.npmjs.org/
+766 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+767 verbose addNameRange registry:https://registry.npmjs.org/strip-ansi not in flight; fetching
+768 silly resolveWithNewModule has-ansi@2.0.0 checking installable status
+769 silly cache add args [ 'has-ansi@^2.0.0', null ]
+770 verbose cache add spec has-ansi@^2.0.0
+771 silly cache add parsed spec Result {
+771 silly cache add   raw: 'has-ansi@^2.0.0',
+771 silly cache add   scope: null,
+771 silly cache add   name: 'has-ansi',
+771 silly cache add   rawSpec: '^2.0.0',
+771 silly cache add   spec: '>=2.0.0 <3.0.0',
+771 silly cache add   type: 'range' }
+772 silly addNamed has-ansi@>=2.0.0 <3.0.0
+773 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for has-ansi
+774 silly addNameRange { name: 'has-ansi', range: '>=2.0.0 <3.0.0', hasData: false }
+775 silly mapToRegistry name has-ansi
+776 silly mapToRegistry using default registry
+777 silly mapToRegistry registry https://registry.npmjs.org/
+778 silly mapToRegistry uri https://registry.npmjs.org/has-ansi
+779 verbose addNameRange registry:https://registry.npmjs.org/has-ansi not in flight; fetching
+780 silly resolveWithNewModule supports-color@2.0.0 checking installable status
+781 silly cache add args [ 'supports-color@^2.0.0', null ]
+782 verbose cache add spec supports-color@^2.0.0
+783 silly cache add parsed spec Result {
+783 silly cache add   raw: 'supports-color@^2.0.0',
+783 silly cache add   scope: null,
+783 silly cache add   name: 'supports-color',
+783 silly cache add   rawSpec: '^2.0.0',
+783 silly cache add   spec: '>=2.0.0 <3.0.0',
+783 silly cache add   type: 'range' }
+784 silly addNamed supports-color@>=2.0.0 <3.0.0
+785 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for supports-color
+786 silly addNameRange { name: 'supports-color',
+786 silly addNameRange   range: '>=2.0.0 <3.0.0',
+786 silly addNameRange   hasData: false }
+787 silly mapToRegistry name supports-color
+788 silly mapToRegistry using default registry
+789 silly mapToRegistry registry https://registry.npmjs.org/
+790 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+791 verbose addNameRange registry:https://registry.npmjs.org/supports-color not in flight; fetching
+792 verbose get https://registry.npmjs.org/ansi-styles not expired, no request
+793 silly addNameRange number 2 { name: 'ansi-styles', range: '>=2.1.0 <3.0.0', hasData: true }
+794 silly addNameRange versions [ 'ansi-styles',
+794 silly addNameRange   [ '0.1.0',
+794 silly addNameRange     '0.1.1',
+794 silly addNameRange     '0.1.2',
+794 silly addNameRange     '0.2.0',
+794 silly addNameRange     '1.0.0',
+794 silly addNameRange     '1.1.0',
+794 silly addNameRange     '2.0.0',
+794 silly addNameRange     '2.0.1',
+794 silly addNameRange     '2.1.0',
+794 silly addNameRange     '2.2.0' ] ]
+795 silly addNamed ansi-styles@2.2.0
+796 verbose addNamed "2.2.0" is a plain semver version for ansi-styles
+797 verbose get https://registry.npmjs.org/escape-string-regexp not expired, no request
+798 silly addNameRange number 2 { name: 'escape-string-regexp',
+798 silly addNameRange   range: '>=1.0.2 <2.0.0',
+798 silly addNameRange   hasData: true }
+799 silly addNameRange versions [ 'escape-string-regexp',
+799 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+800 silly addNamed escape-string-regexp@1.0.5
+801 verbose addNamed "1.0.5" is a plain semver version for escape-string-regexp
+802 verbose get https://registry.npmjs.org/strip-ansi not expired, no request
+803 silly addNameRange number 2 { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: true }
+804 silly addNameRange versions [ 'strip-ansi',
+804 silly addNameRange   [ '0.1.0',
+804 silly addNameRange     '0.1.1',
+804 silly addNameRange     '0.2.0',
+804 silly addNameRange     '0.2.1',
+804 silly addNameRange     '0.2.2',
+804 silly addNameRange     '0.3.0',
+804 silly addNameRange     '1.0.0',
+804 silly addNameRange     '2.0.0',
+804 silly addNameRange     '2.0.1',
+804 silly addNameRange     '3.0.0',
+804 silly addNameRange     '3.0.1' ] ]
+805 silly addNamed strip-ansi@3.0.1
+806 verbose addNamed "3.0.1" is a plain semver version for strip-ansi
+807 verbose get https://registry.npmjs.org/has-ansi not expired, no request
+808 silly addNameRange number 2 { name: 'has-ansi', range: '>=2.0.0 <3.0.0', hasData: true }
+809 silly addNameRange versions [ 'has-ansi',
+809 silly addNameRange   [ '0.1.0', '1.0.0', '1.0.1', '1.0.2', '1.0.3', '2.0.0' ] ]
+810 silly addNamed has-ansi@2.0.0
+811 verbose addNamed "2.0.0" is a plain semver version for has-ansi
+812 verbose get https://registry.npmjs.org/supports-color not expired, no request
+813 silly addNameRange number 2 { name: 'supports-color',
+813 silly addNameRange   range: '>=2.0.0 <3.0.0',
+813 silly addNameRange   hasData: true }
+814 silly addNameRange versions [ 'supports-color',
+814 silly addNameRange   [ '0.2.0',
+814 silly addNameRange     '1.0.0',
+814 silly addNameRange     '1.1.0',
+814 silly addNameRange     '1.2.0',
+814 silly addNameRange     '1.2.1',
+814 silly addNameRange     '1.3.0',
+814 silly addNameRange     '1.3.1',
+814 silly addNameRange     '2.0.0',
+814 silly addNameRange     '3.0.0',
+814 silly addNameRange     '3.0.1',
+814 silly addNameRange     '3.1.0',
+814 silly addNameRange     '3.1.1',
+814 silly addNameRange     '3.1.2' ] ]
+815 silly addNamed supports-color@2.0.0
+816 verbose addNamed "2.0.0" is a plain semver version for supports-color
+817 silly cache afterAdd ansi-styles@2.2.0
+818 verbose afterAdd /home/misael/.npm/ansi-styles/2.2.0/package/package.json not in flight; writing
+819 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+820 silly cache afterAdd escape-string-regexp@1.0.5
+821 verbose afterAdd /home/misael/.npm/escape-string-regexp/1.0.5/package/package.json not in flight; writing
+822 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+823 silly cache afterAdd strip-ansi@3.0.1
+824 verbose afterAdd /home/misael/.npm/strip-ansi/3.0.1/package/package.json not in flight; writing
+825 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+826 silly cache afterAdd has-ansi@2.0.0
+827 verbose afterAdd /home/misael/.npm/has-ansi/2.0.0/package/package.json not in flight; writing
+828 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+829 silly cache afterAdd supports-color@2.0.0
+830 verbose afterAdd /home/misael/.npm/supports-color/2.0.0/package/package.json not in flight; writing
+831 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+832 verbose afterAdd /home/misael/.npm/ansi-styles/2.2.0/package/package.json written
+833 verbose afterAdd /home/misael/.npm/escape-string-regexp/1.0.5/package/package.json written
+834 verbose afterAdd /home/misael/.npm/strip-ansi/3.0.1/package/package.json written
+835 verbose afterAdd /home/misael/.npm/has-ansi/2.0.0/package/package.json written
+836 verbose afterAdd /home/misael/.npm/supports-color/2.0.0/package/package.json written
+837 silly fetchNamedPackageData color-convert
+838 silly mapToRegistry name color-convert
+839 silly mapToRegistry using default registry
+840 silly mapToRegistry registry https://registry.npmjs.org/
+841 silly mapToRegistry uri https://registry.npmjs.org/color-convert
+842 verbose request uri https://registry.npmjs.org/color-convert
+843 verbose request no auth needed
+844 info attempt registry request try #1 at 15:13:43
+845 verbose etag "CJNHEPOM4L23YFA8JNLTBH7PM"
+846 http request GET https://registry.npmjs.org/color-convert
+847 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+848 info attempt registry request try #2 at 15:13:53
+849 verbose etag "CJNHEPOM4L23YFA8JNLTBH7PM"
+850 http request GET https://registry.npmjs.org/color-convert
+851 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+852 info attempt registry request try #3 at 15:14:53
+853 verbose etag "CJNHEPOM4L23YFA8JNLTBH7PM"
+854 http request GET https://registry.npmjs.org/color-convert
+855 silly get cb [ 304, undefined ]
+856 verbose etag https://registry.npmjs.org/color-convert from cache
+857 verbose get saving color-convert to /home/misael/.npm/registry.npmjs.org/color-convert/.cache.json
+858 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+859 silly resolveWithNewModule color-convert@1.0.0 checking installable status
+860 silly cache add args [ 'color-convert@^1.0.0', null ]
+861 verbose cache add spec color-convert@^1.0.0
+862 silly cache add parsed spec Result {
+862 silly cache add   raw: 'color-convert@^1.0.0',
+862 silly cache add   scope: null,
+862 silly cache add   name: 'color-convert',
+862 silly cache add   rawSpec: '^1.0.0',
+862 silly cache add   spec: '>=1.0.0 <2.0.0',
+862 silly cache add   type: 'range' }
+863 silly addNamed color-convert@>=1.0.0 <2.0.0
+864 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for color-convert
+865 silly addNameRange { name: 'color-convert',
+865 silly addNameRange   range: '>=1.0.0 <2.0.0',
+865 silly addNameRange   hasData: false }
+866 silly mapToRegistry name color-convert
+867 silly mapToRegistry using default registry
+868 silly mapToRegistry registry https://registry.npmjs.org/
+869 silly mapToRegistry uri https://registry.npmjs.org/color-convert
+870 verbose addNameRange registry:https://registry.npmjs.org/color-convert not in flight; fetching
+871 verbose get https://registry.npmjs.org/color-convert not expired, no request
+872 silly addNameRange number 2 { name: 'color-convert', range: '>=1.0.0 <2.0.0', hasData: true }
+873 silly addNameRange versions [ 'color-convert',
+873 silly addNameRange   [ '0.1.0',
+873 silly addNameRange     '0.2.0',
+873 silly addNameRange     '0.2.1',
+873 silly addNameRange     '0.3.0',
+873 silly addNameRange     '0.3.1',
+873 silly addNameRange     '0.3.4',
+873 silly addNameRange     '0.4.0',
+873 silly addNameRange     '0.5.0',
+873 silly addNameRange     '0.5.1',
+873 silly addNameRange     '0.5.2',
+873 silly addNameRange     '0.5.3',
+873 silly addNameRange     '0.6.0',
+873 silly addNameRange     '0.7.0',
+873 silly addNameRange     '1.0.0' ] ]
+874 silly addNamed color-convert@1.0.0
+875 verbose addNamed "1.0.0" is a plain semver version for color-convert
+876 silly cache afterAdd color-convert@1.0.0
+877 verbose afterAdd /home/misael/.npm/color-convert/1.0.0/package/package.json not in flight; writing
+878 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+879 verbose afterAdd /home/misael/.npm/color-convert/1.0.0/package/package.json written
+880 silly fetchNamedPackageData ansi-regex
+881 silly mapToRegistry name ansi-regex
+882 silly mapToRegistry using default registry
+883 silly mapToRegistry registry https://registry.npmjs.org/
+884 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+885 verbose request uri https://registry.npmjs.org/ansi-regex
+886 verbose request no auth needed
+887 info attempt registry request try #1 at 15:14:53
+888 verbose etag "1MRHZG3BYMGFOFAI4EBGRPR9U"
+889 http request GET https://registry.npmjs.org/ansi-regex
+890 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+891 info attempt registry request try #2 at 15:15:03
+892 verbose etag "1MRHZG3BYMGFOFAI4EBGRPR9U"
+893 http request GET https://registry.npmjs.org/ansi-regex
+894 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+895 info attempt registry request try #3 at 15:16:03
+896 verbose etag "1MRHZG3BYMGFOFAI4EBGRPR9U"
+897 http request GET https://registry.npmjs.org/ansi-regex
+898 silly get cb [ 304, undefined ]
+899 verbose etag https://registry.npmjs.org/ansi-regex from cache
+900 verbose get saving ansi-regex to /home/misael/.npm/registry.npmjs.org/ansi-regex/.cache.json
+901 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+902 silly resolveWithNewModule ansi-regex@2.0.0 checking installable status
+903 silly cache add args [ 'ansi-regex@^2.0.0', null ]
+904 verbose cache add spec ansi-regex@^2.0.0
+905 silly cache add parsed spec Result {
+905 silly cache add   raw: 'ansi-regex@^2.0.0',
+905 silly cache add   scope: null,
+905 silly cache add   name: 'ansi-regex',
+905 silly cache add   rawSpec: '^2.0.0',
+905 silly cache add   spec: '>=2.0.0 <3.0.0',
+905 silly cache add   type: 'range' }
+906 silly addNamed ansi-regex@>=2.0.0 <3.0.0
+907 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ansi-regex
+908 silly addNameRange { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: false }
+909 silly mapToRegistry name ansi-regex
+910 silly mapToRegistry using default registry
+911 silly mapToRegistry registry https://registry.npmjs.org/
+912 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+913 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex not in flight; fetching
+914 verbose get https://registry.npmjs.org/ansi-regex not expired, no request
+915 silly addNameRange number 2 { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: true }
+916 silly addNameRange versions [ 'ansi-regex',
+916 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1', '2.0.0' ] ]
+917 silly addNamed ansi-regex@2.0.0
+918 verbose addNamed "2.0.0" is a plain semver version for ansi-regex
+919 silly cache afterAdd ansi-regex@2.0.0
+920 verbose afterAdd /home/misael/.npm/ansi-regex/2.0.0/package/package.json not in flight; writing
+921 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+922 verbose afterAdd /home/misael/.npm/ansi-regex/2.0.0/package/package.json written
+923 silly fetchNamedPackageData array-differ
+924 silly mapToRegistry name array-differ
+925 silly mapToRegistry using default registry
+926 silly mapToRegistry registry https://registry.npmjs.org/
+927 silly mapToRegistry uri https://registry.npmjs.org/array-differ
+928 silly fetchNamedPackageData array-uniq
+929 silly mapToRegistry name array-uniq
+930 silly mapToRegistry using default registry
+931 silly mapToRegistry registry https://registry.npmjs.org/
+932 silly mapToRegistry uri https://registry.npmjs.org/array-uniq
+933 silly fetchNamedPackageData beeper
+934 silly mapToRegistry name beeper
+935 silly mapToRegistry using default registry
+936 silly mapToRegistry registry https://registry.npmjs.org/
+937 silly mapToRegistry uri https://registry.npmjs.org/beeper
+938 silly fetchNamedPackageData dateformat
+939 silly mapToRegistry name dateformat
+940 silly mapToRegistry using default registry
+941 silly mapToRegistry registry https://registry.npmjs.org/
+942 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+943 silly fetchNamedPackageData fancy-log
+944 silly mapToRegistry name fancy-log
+945 silly mapToRegistry using default registry
+946 silly mapToRegistry registry https://registry.npmjs.org/
+947 silly mapToRegistry uri https://registry.npmjs.org/fancy-log
+948 silly fetchNamedPackageData gulplog
+949 silly mapToRegistry name gulplog
+950 silly mapToRegistry using default registry
+951 silly mapToRegistry registry https://registry.npmjs.org/
+952 silly mapToRegistry uri https://registry.npmjs.org/gulplog
+953 silly fetchNamedPackageData has-gulplog
+954 silly mapToRegistry name has-gulplog
+955 silly mapToRegistry using default registry
+956 silly mapToRegistry registry https://registry.npmjs.org/
+957 silly mapToRegistry uri https://registry.npmjs.org/has-gulplog
+958 silly fetchNamedPackageData lodash._reescape
+959 silly mapToRegistry name lodash._reescape
+960 silly mapToRegistry using default registry
+961 silly mapToRegistry registry https://registry.npmjs.org/
+962 silly mapToRegistry uri https://registry.npmjs.org/lodash._reescape
+963 silly fetchNamedPackageData lodash._reevaluate
+964 silly mapToRegistry name lodash._reevaluate
+965 silly mapToRegistry using default registry
+966 silly mapToRegistry registry https://registry.npmjs.org/
+967 silly mapToRegistry uri https://registry.npmjs.org/lodash._reevaluate
+968 silly fetchNamedPackageData lodash._reinterpolate
+969 silly mapToRegistry name lodash._reinterpolate
+970 silly mapToRegistry using default registry
+971 silly mapToRegistry registry https://registry.npmjs.org/
+972 silly mapToRegistry uri https://registry.npmjs.org/lodash._reinterpolate
+973 silly fetchNamedPackageData lodash.template
+974 silly mapToRegistry name lodash.template
+975 silly mapToRegistry using default registry
+976 silly mapToRegistry registry https://registry.npmjs.org/
+977 silly mapToRegistry uri https://registry.npmjs.org/lodash.template
+978 silly fetchNamedPackageData multipipe
+979 silly mapToRegistry name multipipe
+980 silly mapToRegistry using default registry
+981 silly mapToRegistry registry https://registry.npmjs.org/
+982 silly mapToRegistry uri https://registry.npmjs.org/multipipe
+983 silly fetchNamedPackageData object-assign
+984 silly mapToRegistry name object-assign
+985 silly mapToRegistry using default registry
+986 silly mapToRegistry registry https://registry.npmjs.org/
+987 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+988 silly fetchNamedPackageData replace-ext
+989 silly mapToRegistry name replace-ext
+990 silly mapToRegistry using default registry
+991 silly mapToRegistry registry https://registry.npmjs.org/
+992 silly mapToRegistry uri https://registry.npmjs.org/replace-ext
+993 silly fetchNamedPackageData through2
+994 silly mapToRegistry name through2
+995 silly mapToRegistry using default registry
+996 silly mapToRegistry registry https://registry.npmjs.org/
+997 silly mapToRegistry uri https://registry.npmjs.org/through2
+998 silly fetchNamedPackageData vinyl
+999 silly mapToRegistry name vinyl
+1000 silly mapToRegistry using default registry
+1001 silly mapToRegistry registry https://registry.npmjs.org/
+1002 silly mapToRegistry uri https://registry.npmjs.org/vinyl
+1003 verbose request uri https://registry.npmjs.org/array-differ
+1004 verbose request no auth needed
+1005 info attempt registry request try #1 at 15:16:04
+1006 verbose etag "CRIHKMBXNOZ5V6977RYWJQ8HW"
+1007 http request GET https://registry.npmjs.org/array-differ
+1008 verbose request uri https://registry.npmjs.org/array-uniq
+1009 verbose request no auth needed
+1010 info attempt registry request try #1 at 15:16:04
+1011 verbose etag "ASN5528177FJPH3YHWJJ6NVQF"
+1012 http request GET https://registry.npmjs.org/array-uniq
+1013 verbose request uri https://registry.npmjs.org/beeper
+1014 verbose request no auth needed
+1015 info attempt registry request try #1 at 15:16:04
+1016 verbose etag "CFMNBXCN22506MZOUHBW0KLIC"
+1017 http request GET https://registry.npmjs.org/beeper
+1018 verbose request uri https://registry.npmjs.org/dateformat
+1019 verbose request no auth needed
+1020 info attempt registry request try #1 at 15:16:04
+1021 verbose etag "68CHWNU7L32BH5WAVFW64DMA6"
+1022 http request GET https://registry.npmjs.org/dateformat
+1023 verbose request uri https://registry.npmjs.org/fancy-log
+1024 verbose request no auth needed
+1025 info attempt registry request try #1 at 15:16:04
+1026 verbose etag "3PTBTD9G9K9SIFNM2MYWQCA6X"
+1027 http request GET https://registry.npmjs.org/fancy-log
+1028 verbose request uri https://registry.npmjs.org/gulplog
+1029 verbose request no auth needed
+1030 info attempt registry request try #1 at 15:16:04
+1031 verbose etag "C566VAXAQI8QB3PAUAA95PTV0"
+1032 http request GET https://registry.npmjs.org/gulplog
+1033 verbose request uri https://registry.npmjs.org/has-gulplog
+1034 verbose request no auth needed
+1035 info attempt registry request try #1 at 15:16:04
+1036 verbose etag "7RLZ9OTS17XU9N885HJL2HBHF"
+1037 http request GET https://registry.npmjs.org/has-gulplog
+1038 verbose request uri https://registry.npmjs.org/lodash._reescape
+1039 verbose request no auth needed
+1040 info attempt registry request try #1 at 15:16:04
+1041 verbose etag "BHYL7MK3GRGGIM4DEI5QQWHTW"
+1042 http request GET https://registry.npmjs.org/lodash._reescape
+1043 verbose request uri https://registry.npmjs.org/lodash._reevaluate
+1044 verbose request no auth needed
+1045 info attempt registry request try #1 at 15:16:04
+1046 verbose etag "8NESLQI8SNUI1XGXWQOIF6YBQ"
+1047 http request GET https://registry.npmjs.org/lodash._reevaluate
+1048 verbose request uri https://registry.npmjs.org/lodash._reinterpolate
+1049 verbose request no auth needed
+1050 info attempt registry request try #1 at 15:16:04
+1051 verbose etag "4H6XCWFW7MWXSOSI7412A2YT"
+1052 http request GET https://registry.npmjs.org/lodash._reinterpolate
+1053 verbose request uri https://registry.npmjs.org/lodash.template
+1054 verbose request no auth needed
+1055 info attempt registry request try #1 at 15:16:04
+1056 verbose etag "1ZC40N88JZLMRTHWPVUNBOL2A"
+1057 http request GET https://registry.npmjs.org/lodash.template
+1058 verbose request uri https://registry.npmjs.org/multipipe
+1059 verbose request no auth needed
+1060 info attempt registry request try #1 at 15:16:04
+1061 verbose etag "7Y4I5M7W4KHNL8ETUWDLQHCM7"
+1062 http request GET https://registry.npmjs.org/multipipe
+1063 verbose request uri https://registry.npmjs.org/object-assign
+1064 verbose request no auth needed
+1065 info attempt registry request try #1 at 15:16:04
+1066 verbose etag "7IA60PJ0QC59PXUC9K809HK5U"
+1067 http request GET https://registry.npmjs.org/object-assign
+1068 verbose request uri https://registry.npmjs.org/replace-ext
+1069 verbose request no auth needed
+1070 info attempt registry request try #1 at 15:16:04
+1071 verbose etag "AVINVJ4HX0ZK4V9X1K82BQ7RU"
+1072 http request GET https://registry.npmjs.org/replace-ext
+1073 verbose request uri https://registry.npmjs.org/through2
+1074 verbose request no auth needed
+1075 info attempt registry request try #1 at 15:16:04
+1076 verbose etag "3SOWZC3N54WJYGQV9G4ZUWERP"
+1077 http request GET https://registry.npmjs.org/through2
+1078 verbose request uri https://registry.npmjs.org/vinyl
+1079 verbose request no auth needed
+1080 info attempt registry request try #1 at 15:16:04
+1081 verbose etag "2IW3D7KCX7OPQXEPKD0MJ1CCS"
+1082 http request GET https://registry.npmjs.org/vinyl
+1083 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1084 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1085 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1086 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1087 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1088 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1089 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1090 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1091 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1092 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1093 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1094 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1095 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1096 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1097 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1098 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1099 info attempt registry request try #2 at 15:16:14
+1100 verbose etag "CRIHKMBXNOZ5V6977RYWJQ8HW"
+1101 http request GET https://registry.npmjs.org/array-differ
+1102 info attempt registry request try #2 at 15:16:14
+1103 verbose etag "ASN5528177FJPH3YHWJJ6NVQF"
+1104 http request GET https://registry.npmjs.org/array-uniq
+1105 info attempt registry request try #2 at 15:16:14
+1106 verbose etag "CFMNBXCN22506MZOUHBW0KLIC"
+1107 http request GET https://registry.npmjs.org/beeper
+1108 info attempt registry request try #2 at 15:16:14
+1109 verbose etag "68CHWNU7L32BH5WAVFW64DMA6"
+1110 http request GET https://registry.npmjs.org/dateformat
+1111 info attempt registry request try #2 at 15:16:14
+1112 verbose etag "3PTBTD9G9K9SIFNM2MYWQCA6X"
+1113 http request GET https://registry.npmjs.org/fancy-log
+1114 info attempt registry request try #2 at 15:16:14
+1115 verbose etag "C566VAXAQI8QB3PAUAA95PTV0"
+1116 http request GET https://registry.npmjs.org/gulplog
+1117 info attempt registry request try #2 at 15:16:14
+1118 verbose etag "7RLZ9OTS17XU9N885HJL2HBHF"
+1119 http request GET https://registry.npmjs.org/has-gulplog
+1120 info attempt registry request try #2 at 15:16:14
+1121 verbose etag "BHYL7MK3GRGGIM4DEI5QQWHTW"
+1122 http request GET https://registry.npmjs.org/lodash._reescape
+1123 info attempt registry request try #2 at 15:16:14
+1124 verbose etag "8NESLQI8SNUI1XGXWQOIF6YBQ"
+1125 http request GET https://registry.npmjs.org/lodash._reevaluate
+1126 info attempt registry request try #2 at 15:16:14
+1127 verbose etag "4H6XCWFW7MWXSOSI7412A2YT"
+1128 http request GET https://registry.npmjs.org/lodash._reinterpolate
+1129 info attempt registry request try #2 at 15:16:14
+1130 verbose etag "1ZC40N88JZLMRTHWPVUNBOL2A"
+1131 http request GET https://registry.npmjs.org/lodash.template
+1132 info attempt registry request try #2 at 15:16:14
+1133 verbose etag "7Y4I5M7W4KHNL8ETUWDLQHCM7"
+1134 http request GET https://registry.npmjs.org/multipipe
+1135 info attempt registry request try #2 at 15:16:14
+1136 verbose etag "7IA60PJ0QC59PXUC9K809HK5U"
+1137 http request GET https://registry.npmjs.org/object-assign
+1138 info attempt registry request try #2 at 15:16:14
+1139 verbose etag "AVINVJ4HX0ZK4V9X1K82BQ7RU"
+1140 http request GET https://registry.npmjs.org/replace-ext
+1141 info attempt registry request try #2 at 15:16:14
+1142 verbose etag "3SOWZC3N54WJYGQV9G4ZUWERP"
+1143 http request GET https://registry.npmjs.org/through2
+1144 info attempt registry request try #2 at 15:16:14
+1145 verbose etag "2IW3D7KCX7OPQXEPKD0MJ1CCS"
+1146 http request GET https://registry.npmjs.org/vinyl
+1147 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1148 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1149 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1150 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1151 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1152 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1153 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1154 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1155 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1156 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1157 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1158 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1159 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1160 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1161 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1162 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1163 info attempt registry request try #3 at 15:17:14
+1164 verbose etag "CRIHKMBXNOZ5V6977RYWJQ8HW"
+1165 http request GET https://registry.npmjs.org/array-differ
+1166 info attempt registry request try #3 at 15:17:14
+1167 verbose etag "ASN5528177FJPH3YHWJJ6NVQF"
+1168 http request GET https://registry.npmjs.org/array-uniq
+1169 info attempt registry request try #3 at 15:17:14
+1170 verbose etag "CFMNBXCN22506MZOUHBW0KLIC"
+1171 http request GET https://registry.npmjs.org/beeper
+1172 info attempt registry request try #3 at 15:17:14
+1173 verbose etag "68CHWNU7L32BH5WAVFW64DMA6"
+1174 http request GET https://registry.npmjs.org/dateformat
+1175 info attempt registry request try #3 at 15:17:14
+1176 verbose etag "3PTBTD9G9K9SIFNM2MYWQCA6X"
+1177 http request GET https://registry.npmjs.org/fancy-log
+1178 info attempt registry request try #3 at 15:17:14
+1179 verbose etag "C566VAXAQI8QB3PAUAA95PTV0"
+1180 http request GET https://registry.npmjs.org/gulplog
+1181 info attempt registry request try #3 at 15:17:14
+1182 verbose etag "7RLZ9OTS17XU9N885HJL2HBHF"
+1183 http request GET https://registry.npmjs.org/has-gulplog
+1184 info attempt registry request try #3 at 15:17:14
+1185 verbose etag "BHYL7MK3GRGGIM4DEI5QQWHTW"
+1186 http request GET https://registry.npmjs.org/lodash._reescape
+1187 info attempt registry request try #3 at 15:17:14
+1188 verbose etag "8NESLQI8SNUI1XGXWQOIF6YBQ"
+1189 http request GET https://registry.npmjs.org/lodash._reevaluate
+1190 info attempt registry request try #3 at 15:17:14
+1191 verbose etag "4H6XCWFW7MWXSOSI7412A2YT"
+1192 http request GET https://registry.npmjs.org/lodash._reinterpolate
+1193 info attempt registry request try #3 at 15:17:14
+1194 verbose etag "1ZC40N88JZLMRTHWPVUNBOL2A"
+1195 http request GET https://registry.npmjs.org/lodash.template
+1196 info attempt registry request try #3 at 15:17:14
+1197 verbose etag "7Y4I5M7W4KHNL8ETUWDLQHCM7"
+1198 http request GET https://registry.npmjs.org/multipipe
+1199 info attempt registry request try #3 at 15:17:14
+1200 verbose etag "7IA60PJ0QC59PXUC9K809HK5U"
+1201 http request GET https://registry.npmjs.org/object-assign
+1202 info attempt registry request try #3 at 15:17:14
+1203 verbose etag "AVINVJ4HX0ZK4V9X1K82BQ7RU"
+1204 http request GET https://registry.npmjs.org/replace-ext
+1205 info attempt registry request try #3 at 15:17:14
+1206 verbose etag "3SOWZC3N54WJYGQV9G4ZUWERP"
+1207 http request GET https://registry.npmjs.org/through2
+1208 info attempt registry request try #3 at 15:17:14
+1209 verbose etag "2IW3D7KCX7OPQXEPKD0MJ1CCS"
+1210 http request GET https://registry.npmjs.org/vinyl
+1211 silly get cb [ 304, undefined ]
+1212 verbose etag https://registry.npmjs.org/array-differ from cache
+1213 verbose get saving array-differ to /home/misael/.npm/registry.npmjs.org/array-differ/.cache.json
+1214 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1215 silly get cb [ 304, undefined ]
+1216 verbose etag https://registry.npmjs.org/array-uniq from cache
+1217 verbose get saving array-uniq to /home/misael/.npm/registry.npmjs.org/array-uniq/.cache.json
+1218 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1219 silly get cb [ 304, undefined ]
+1220 verbose etag https://registry.npmjs.org/beeper from cache
+1221 verbose get saving beeper to /home/misael/.npm/registry.npmjs.org/beeper/.cache.json
+1222 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1223 silly get cb [ 304, undefined ]
+1224 verbose etag https://registry.npmjs.org/dateformat from cache
+1225 verbose get saving dateformat to /home/misael/.npm/registry.npmjs.org/dateformat/.cache.json
+1226 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1227 silly get cb [ 304, undefined ]
+1228 verbose etag https://registry.npmjs.org/fancy-log from cache
+1229 verbose get saving fancy-log to /home/misael/.npm/registry.npmjs.org/fancy-log/.cache.json
+1230 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1231 silly get cb [ 304, undefined ]
+1232 verbose etag https://registry.npmjs.org/gulplog from cache
+1233 verbose get saving gulplog to /home/misael/.npm/registry.npmjs.org/gulplog/.cache.json
+1234 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1235 silly get cb [ 304, undefined ]
+1236 verbose etag https://registry.npmjs.org/has-gulplog from cache
+1237 verbose get saving has-gulplog to /home/misael/.npm/registry.npmjs.org/has-gulplog/.cache.json
+1238 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1239 silly get cb [ 304, undefined ]
+1240 verbose etag https://registry.npmjs.org/through2 from cache
+1241 verbose get saving through2 to /home/misael/.npm/registry.npmjs.org/through2/.cache.json
+1242 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1243 silly get cb [ 304, undefined ]
+1244 verbose etag https://registry.npmjs.org/lodash._reescape from cache
+1245 verbose get saving lodash._reescape to /home/misael/.npm/registry.npmjs.org/lodash._reescape/.cache.json
+1246 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1247 silly get cb [ 304, undefined ]
+1248 verbose etag https://registry.npmjs.org/lodash._reevaluate from cache
+1249 verbose get saving lodash._reevaluate to /home/misael/.npm/registry.npmjs.org/lodash._reevaluate/.cache.json
+1250 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1251 silly get cb [ 304, undefined ]
+1252 verbose etag https://registry.npmjs.org/lodash._reinterpolate from cache
+1253 verbose get saving lodash._reinterpolate to /home/misael/.npm/registry.npmjs.org/lodash._reinterpolate/.cache.json
+1254 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1255 silly get cb [ 304, undefined ]
+1256 verbose etag https://registry.npmjs.org/lodash.template from cache
+1257 verbose get saving lodash.template to /home/misael/.npm/registry.npmjs.org/lodash.template/.cache.json
+1258 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1259 silly get cb [ 304, undefined ]
+1260 verbose etag https://registry.npmjs.org/multipipe from cache
+1261 verbose get saving multipipe to /home/misael/.npm/registry.npmjs.org/multipipe/.cache.json
+1262 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1263 silly get cb [ 304, undefined ]
+1264 verbose etag https://registry.npmjs.org/object-assign from cache
+1265 verbose get saving object-assign to /home/misael/.npm/registry.npmjs.org/object-assign/.cache.json
+1266 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1267 silly get cb [ 304, undefined ]
+1268 verbose etag https://registry.npmjs.org/replace-ext from cache
+1269 verbose get saving replace-ext to /home/misael/.npm/registry.npmjs.org/replace-ext/.cache.json
+1270 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1271 silly get cb [ 304, undefined ]
+1272 verbose etag https://registry.npmjs.org/vinyl from cache
+1273 verbose get saving vinyl to /home/misael/.npm/registry.npmjs.org/vinyl/.cache.json
+1274 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1275 silly resolveWithNewModule array-uniq@1.0.2 checking installable status
+1276 silly cache add args [ 'array-uniq@^1.0.2', null ]
+1277 verbose cache add spec array-uniq@^1.0.2
+1278 silly cache add parsed spec Result {
+1278 silly cache add   raw: 'array-uniq@^1.0.2',
+1278 silly cache add   scope: null,
+1278 silly cache add   name: 'array-uniq',
+1278 silly cache add   rawSpec: '^1.0.2',
+1278 silly cache add   spec: '>=1.0.2 <2.0.0',
+1278 silly cache add   type: 'range' }
+1279 silly addNamed array-uniq@>=1.0.2 <2.0.0
+1280 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for array-uniq
+1281 silly addNameRange { name: 'array-uniq', range: '>=1.0.2 <2.0.0', hasData: false }
+1282 silly mapToRegistry name array-uniq
+1283 silly mapToRegistry using default registry
+1284 silly mapToRegistry registry https://registry.npmjs.org/
+1285 silly mapToRegistry uri https://registry.npmjs.org/array-uniq
+1286 verbose addNameRange registry:https://registry.npmjs.org/array-uniq not in flight; fetching
+1287 silly resolveWithNewModule fancy-log@1.1.0 checking installable status
+1288 silly cache add args [ 'fancy-log@^1.1.0', null ]
+1289 verbose cache add spec fancy-log@^1.1.0
+1290 silly cache add parsed spec Result {
+1290 silly cache add   raw: 'fancy-log@^1.1.0',
+1290 silly cache add   scope: null,
+1290 silly cache add   name: 'fancy-log',
+1290 silly cache add   rawSpec: '^1.1.0',
+1290 silly cache add   spec: '>=1.1.0 <2.0.0',
+1290 silly cache add   type: 'range' }
+1291 silly addNamed fancy-log@>=1.1.0 <2.0.0
+1292 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for fancy-log
+1293 silly addNameRange { name: 'fancy-log', range: '>=1.1.0 <2.0.0', hasData: false }
+1294 silly mapToRegistry name fancy-log
+1295 silly mapToRegistry using default registry
+1296 silly mapToRegistry registry https://registry.npmjs.org/
+1297 silly mapToRegistry uri https://registry.npmjs.org/fancy-log
+1298 verbose addNameRange registry:https://registry.npmjs.org/fancy-log not in flight; fetching
+1299 silly resolveWithNewModule array-differ@1.0.0 checking installable status
+1300 silly cache add args [ 'array-differ@^1.0.0', null ]
+1301 verbose cache add spec array-differ@^1.0.0
+1302 silly cache add parsed spec Result {
+1302 silly cache add   raw: 'array-differ@^1.0.0',
+1302 silly cache add   scope: null,
+1302 silly cache add   name: 'array-differ',
+1302 silly cache add   rawSpec: '^1.0.0',
+1302 silly cache add   spec: '>=1.0.0 <2.0.0',
+1302 silly cache add   type: 'range' }
+1303 silly addNamed array-differ@>=1.0.0 <2.0.0
+1304 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for array-differ
+1305 silly addNameRange { name: 'array-differ', range: '>=1.0.0 <2.0.0', hasData: false }
+1306 silly mapToRegistry name array-differ
+1307 silly mapToRegistry using default registry
+1308 silly mapToRegistry registry https://registry.npmjs.org/
+1309 silly mapToRegistry uri https://registry.npmjs.org/array-differ
+1310 verbose addNameRange registry:https://registry.npmjs.org/array-differ not in flight; fetching
+1311 silly resolveWithNewModule beeper@1.1.0 checking installable status
+1312 silly cache add args [ 'beeper@^1.0.0', null ]
+1313 verbose cache add spec beeper@^1.0.0
+1314 silly cache add parsed spec Result {
+1314 silly cache add   raw: 'beeper@^1.0.0',
+1314 silly cache add   scope: null,
+1314 silly cache add   name: 'beeper',
+1314 silly cache add   rawSpec: '^1.0.0',
+1314 silly cache add   spec: '>=1.0.0 <2.0.0',
+1314 silly cache add   type: 'range' }
+1315 silly addNamed beeper@>=1.0.0 <2.0.0
+1316 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for beeper
+1317 silly addNameRange { name: 'beeper', range: '>=1.0.0 <2.0.0', hasData: false }
+1318 silly mapToRegistry name beeper
+1319 silly mapToRegistry using default registry
+1320 silly mapToRegistry registry https://registry.npmjs.org/
+1321 silly mapToRegistry uri https://registry.npmjs.org/beeper
+1322 verbose addNameRange registry:https://registry.npmjs.org/beeper not in flight; fetching
+1323 silly resolveWithNewModule dateformat@1.0.12 checking installable status
+1324 silly cache add args [ 'dateformat@^1.0.11', null ]
+1325 verbose cache add spec dateformat@^1.0.11
+1326 silly cache add parsed spec Result {
+1326 silly cache add   raw: 'dateformat@^1.0.11',
+1326 silly cache add   scope: null,
+1326 silly cache add   name: 'dateformat',
+1326 silly cache add   rawSpec: '^1.0.11',
+1326 silly cache add   spec: '>=1.0.11 <2.0.0',
+1326 silly cache add   type: 'range' }
+1327 silly addNamed dateformat@>=1.0.11 <2.0.0
+1328 verbose addNamed ">=1.0.11 <2.0.0" is a valid semver range for dateformat
+1329 silly addNameRange { name: 'dateformat', range: '>=1.0.11 <2.0.0', hasData: false }
+1330 silly mapToRegistry name dateformat
+1331 silly mapToRegistry using default registry
+1332 silly mapToRegistry registry https://registry.npmjs.org/
+1333 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+1334 verbose addNameRange registry:https://registry.npmjs.org/dateformat not in flight; fetching
+1335 silly resolveWithNewModule has-gulplog@0.1.0 checking installable status
+1336 silly cache add args [ 'has-gulplog@^0.1.0', null ]
+1337 verbose cache add spec has-gulplog@^0.1.0
+1338 silly cache add parsed spec Result {
+1338 silly cache add   raw: 'has-gulplog@^0.1.0',
+1338 silly cache add   scope: null,
+1338 silly cache add   name: 'has-gulplog',
+1338 silly cache add   rawSpec: '^0.1.0',
+1338 silly cache add   spec: '>=0.1.0 <0.2.0',
+1338 silly cache add   type: 'range' }
+1339 silly addNamed has-gulplog@>=0.1.0 <0.2.0
+1340 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for has-gulplog
+1341 silly addNameRange { name: 'has-gulplog', range: '>=0.1.0 <0.2.0', hasData: false }
+1342 silly mapToRegistry name has-gulplog
+1343 silly mapToRegistry using default registry
+1344 silly mapToRegistry registry https://registry.npmjs.org/
+1345 silly mapToRegistry uri https://registry.npmjs.org/has-gulplog
+1346 verbose addNameRange registry:https://registry.npmjs.org/has-gulplog not in flight; fetching
+1347 silly resolveWithNewModule gulplog@1.0.0 checking installable status
+1348 silly cache add args [ 'gulplog@^1.0.0', null ]
+1349 verbose cache add spec gulplog@^1.0.0
+1350 silly cache add parsed spec Result {
+1350 silly cache add   raw: 'gulplog@^1.0.0',
+1350 silly cache add   scope: null,
+1350 silly cache add   name: 'gulplog',
+1350 silly cache add   rawSpec: '^1.0.0',
+1350 silly cache add   spec: '>=1.0.0 <2.0.0',
+1350 silly cache add   type: 'range' }
+1351 silly addNamed gulplog@>=1.0.0 <2.0.0
+1352 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for gulplog
+1353 silly addNameRange { name: 'gulplog', range: '>=1.0.0 <2.0.0', hasData: false }
+1354 silly mapToRegistry name gulplog
+1355 silly mapToRegistry using default registry
+1356 silly mapToRegistry registry https://registry.npmjs.org/
+1357 silly mapToRegistry uri https://registry.npmjs.org/gulplog
+1358 verbose addNameRange registry:https://registry.npmjs.org/gulplog not in flight; fetching
+1359 silly resolveWithNewModule through2@2.0.0 checking installable status
+1360 silly cache add args [ 'through2@^2.0.0', null ]
+1361 verbose cache add spec through2@^2.0.0
+1362 silly cache add parsed spec Result {
+1362 silly cache add   raw: 'through2@^2.0.0',
+1362 silly cache add   scope: null,
+1362 silly cache add   name: 'through2',
+1362 silly cache add   rawSpec: '^2.0.0',
+1362 silly cache add   spec: '>=2.0.0 <3.0.0',
+1362 silly cache add   type: 'range' }
+1363 silly addNamed through2@>=2.0.0 <3.0.0
+1364 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for through2
+1365 silly addNameRange { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: false }
+1366 silly mapToRegistry name through2
+1367 silly mapToRegistry using default registry
+1368 silly mapToRegistry registry https://registry.npmjs.org/
+1369 silly mapToRegistry uri https://registry.npmjs.org/through2
+1370 verbose addNameRange registry:https://registry.npmjs.org/through2 not in flight; fetching
+1371 silly resolveWithNewModule lodash._reescape@3.0.0 checking installable status
+1372 silly cache add args [ 'lodash._reescape@^3.0.0', null ]
+1373 verbose cache add spec lodash._reescape@^3.0.0
+1374 silly cache add parsed spec Result {
+1374 silly cache add   raw: 'lodash._reescape@^3.0.0',
+1374 silly cache add   scope: null,
+1374 silly cache add   name: 'lodash._reescape',
+1374 silly cache add   rawSpec: '^3.0.0',
+1374 silly cache add   spec: '>=3.0.0 <4.0.0',
+1374 silly cache add   type: 'range' }
+1375 silly addNamed lodash._reescape@>=3.0.0 <4.0.0
+1376 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._reescape
+1377 silly addNameRange { name: 'lodash._reescape',
+1377 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1377 silly addNameRange   hasData: false }
+1378 silly mapToRegistry name lodash._reescape
+1379 silly mapToRegistry using default registry
+1380 silly mapToRegistry registry https://registry.npmjs.org/
+1381 silly mapToRegistry uri https://registry.npmjs.org/lodash._reescape
+1382 verbose addNameRange registry:https://registry.npmjs.org/lodash._reescape not in flight; fetching
+1383 silly resolveWithNewModule lodash._reevaluate@3.0.0 checking installable status
+1384 silly cache add args [ 'lodash._reevaluate@^3.0.0', null ]
+1385 verbose cache add spec lodash._reevaluate@^3.0.0
+1386 silly cache add parsed spec Result {
+1386 silly cache add   raw: 'lodash._reevaluate@^3.0.0',
+1386 silly cache add   scope: null,
+1386 silly cache add   name: 'lodash._reevaluate',
+1386 silly cache add   rawSpec: '^3.0.0',
+1386 silly cache add   spec: '>=3.0.0 <4.0.0',
+1386 silly cache add   type: 'range' }
+1387 silly addNamed lodash._reevaluate@>=3.0.0 <4.0.0
+1388 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._reevaluate
+1389 silly addNameRange { name: 'lodash._reevaluate',
+1389 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1389 silly addNameRange   hasData: false }
+1390 silly mapToRegistry name lodash._reevaluate
+1391 silly mapToRegistry using default registry
+1392 silly mapToRegistry registry https://registry.npmjs.org/
+1393 silly mapToRegistry uri https://registry.npmjs.org/lodash._reevaluate
+1394 verbose addNameRange registry:https://registry.npmjs.org/lodash._reevaluate not in flight; fetching
+1395 silly resolveWithNewModule lodash._reinterpolate@3.0.0 checking installable status
+1396 silly cache add args [ 'lodash._reinterpolate@^3.0.0', null ]
+1397 verbose cache add spec lodash._reinterpolate@^3.0.0
+1398 silly cache add parsed spec Result {
+1398 silly cache add   raw: 'lodash._reinterpolate@^3.0.0',
+1398 silly cache add   scope: null,
+1398 silly cache add   name: 'lodash._reinterpolate',
+1398 silly cache add   rawSpec: '^3.0.0',
+1398 silly cache add   spec: '>=3.0.0 <4.0.0',
+1398 silly cache add   type: 'range' }
+1399 silly addNamed lodash._reinterpolate@>=3.0.0 <4.0.0
+1400 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._reinterpolate
+1401 silly addNameRange { name: 'lodash._reinterpolate',
+1401 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1401 silly addNameRange   hasData: false }
+1402 silly mapToRegistry name lodash._reinterpolate
+1403 silly mapToRegistry using default registry
+1404 silly mapToRegistry registry https://registry.npmjs.org/
+1405 silly mapToRegistry uri https://registry.npmjs.org/lodash._reinterpolate
+1406 verbose addNameRange registry:https://registry.npmjs.org/lodash._reinterpolate not in flight; fetching
+1407 silly resolveWithNewModule multipipe@0.1.2 checking installable status
+1408 silly cache add args [ 'multipipe@^0.1.2', null ]
+1409 verbose cache add spec multipipe@^0.1.2
+1410 silly cache add parsed spec Result {
+1410 silly cache add   raw: 'multipipe@^0.1.2',
+1410 silly cache add   scope: null,
+1410 silly cache add   name: 'multipipe',
+1410 silly cache add   rawSpec: '^0.1.2',
+1410 silly cache add   spec: '>=0.1.2 <0.2.0',
+1410 silly cache add   type: 'range' }
+1411 silly addNamed multipipe@>=0.1.2 <0.2.0
+1412 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for multipipe
+1413 silly addNameRange { name: 'multipipe', range: '>=0.1.2 <0.2.0', hasData: false }
+1414 silly mapToRegistry name multipipe
+1415 silly mapToRegistry using default registry
+1416 silly mapToRegistry registry https://registry.npmjs.org/
+1417 silly mapToRegistry uri https://registry.npmjs.org/multipipe
+1418 verbose addNameRange registry:https://registry.npmjs.org/multipipe not in flight; fetching
+1419 silly resolveWithNewModule replace-ext@0.0.1 checking installable status
+1420 silly cache add args [ 'replace-ext@0.0.1', null ]
+1421 verbose cache add spec replace-ext@0.0.1
+1422 silly cache add parsed spec Result {
+1422 silly cache add   raw: 'replace-ext@0.0.1',
+1422 silly cache add   scope: null,
+1422 silly cache add   name: 'replace-ext',
+1422 silly cache add   rawSpec: '0.0.1',
+1422 silly cache add   spec: '0.0.1',
+1422 silly cache add   type: 'version' }
+1423 silly addNamed replace-ext@0.0.1
+1424 verbose addNamed "0.0.1" is a plain semver version for replace-ext
+1425 silly mapToRegistry name replace-ext
+1426 silly mapToRegistry using default registry
+1427 silly mapToRegistry registry https://registry.npmjs.org/
+1428 silly mapToRegistry uri https://registry.npmjs.org/replace-ext
+1429 verbose addNameVersion registry:https://registry.npmjs.org/replace-ext not in flight; fetching
+1430 silly resolveWithNewModule object-assign@3.0.0 checking installable status
+1431 silly cache add args [ 'object-assign@^3.0.0', null ]
+1432 verbose cache add spec object-assign@^3.0.0
+1433 silly cache add parsed spec Result {
+1433 silly cache add   raw: 'object-assign@^3.0.0',
+1433 silly cache add   scope: null,
+1433 silly cache add   name: 'object-assign',
+1433 silly cache add   rawSpec: '^3.0.0',
+1433 silly cache add   spec: '>=3.0.0 <4.0.0',
+1433 silly cache add   type: 'range' }
+1434 silly addNamed object-assign@>=3.0.0 <4.0.0
+1435 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for object-assign
+1436 silly addNameRange { name: 'object-assign',
+1436 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1436 silly addNameRange   hasData: false }
+1437 silly mapToRegistry name object-assign
+1438 silly mapToRegistry using default registry
+1439 silly mapToRegistry registry https://registry.npmjs.org/
+1440 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+1441 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+1442 silly resolveWithNewModule lodash.template@3.6.2 checking installable status
+1443 silly cache add args [ 'lodash.template@^3.0.0', null ]
+1444 verbose cache add spec lodash.template@^3.0.0
+1445 silly cache add parsed spec Result {
+1445 silly cache add   raw: 'lodash.template@^3.0.0',
+1445 silly cache add   scope: null,
+1445 silly cache add   name: 'lodash.template',
+1445 silly cache add   rawSpec: '^3.0.0',
+1445 silly cache add   spec: '>=3.0.0 <4.0.0',
+1445 silly cache add   type: 'range' }
+1446 silly addNamed lodash.template@>=3.0.0 <4.0.0
+1447 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.template
+1448 silly addNameRange { name: 'lodash.template',
+1448 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1448 silly addNameRange   hasData: false }
+1449 silly mapToRegistry name lodash.template
+1450 silly mapToRegistry using default registry
+1451 silly mapToRegistry registry https://registry.npmjs.org/
+1452 silly mapToRegistry uri https://registry.npmjs.org/lodash.template
+1453 verbose addNameRange registry:https://registry.npmjs.org/lodash.template not in flight; fetching
+1454 verbose get https://registry.npmjs.org/array-uniq not expired, no request
+1455 silly addNameRange number 2 { name: 'array-uniq', range: '>=1.0.2 <2.0.0', hasData: true }
+1456 silly addNameRange versions [ 'array-uniq',
+1456 silly addNameRange   [ '0.1.0', '0.1.1', '1.0.0', '1.0.1', '1.0.2' ] ]
+1457 silly addNamed array-uniq@1.0.2
+1458 verbose addNamed "1.0.2" is a plain semver version for array-uniq
+1459 verbose get https://registry.npmjs.org/fancy-log not expired, no request
+1460 silly addNameRange number 2 { name: 'fancy-log', range: '>=1.1.0 <2.0.0', hasData: true }
+1461 silly addNameRange versions [ 'fancy-log', [ '1.0.0', '1.1.0' ] ]
+1462 silly addNamed fancy-log@1.1.0
+1463 verbose addNamed "1.1.0" is a plain semver version for fancy-log
+1464 verbose get https://registry.npmjs.org/array-differ not expired, no request
+1465 silly addNameRange number 2 { name: 'array-differ', range: '>=1.0.0 <2.0.0', hasData: true }
+1466 silly addNameRange versions [ 'array-differ', [ '0.1.0', '1.0.0' ] ]
+1467 silly addNamed array-differ@1.0.0
+1468 verbose addNamed "1.0.0" is a plain semver version for array-differ
+1469 verbose get https://registry.npmjs.org/beeper not expired, no request
+1470 silly addNameRange number 2 { name: 'beeper', range: '>=1.0.0 <2.0.0', hasData: true }
+1471 silly addNameRange versions [ 'beeper', [ '1.0.0', '1.1.0' ] ]
+1472 silly addNamed beeper@1.1.0
+1473 verbose addNamed "1.1.0" is a plain semver version for beeper
+1474 silly resolveWithNewModule vinyl@0.5.3 checking installable status
+1475 silly cache add args [ 'vinyl@^0.5.0', null ]
+1476 verbose cache add spec vinyl@^0.5.0
+1477 silly cache add parsed spec Result {
+1477 silly cache add   raw: 'vinyl@^0.5.0',
+1477 silly cache add   scope: null,
+1477 silly cache add   name: 'vinyl',
+1477 silly cache add   rawSpec: '^0.5.0',
+1477 silly cache add   spec: '>=0.5.0 <0.6.0',
+1477 silly cache add   type: 'range' }
+1478 silly addNamed vinyl@>=0.5.0 <0.6.0
+1479 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for vinyl
+1480 silly addNameRange { name: 'vinyl', range: '>=0.5.0 <0.6.0', hasData: false }
+1481 silly mapToRegistry name vinyl
+1482 silly mapToRegistry using default registry
+1483 silly mapToRegistry registry https://registry.npmjs.org/
+1484 silly mapToRegistry uri https://registry.npmjs.org/vinyl
+1485 verbose addNameRange registry:https://registry.npmjs.org/vinyl not in flight; fetching
+1486 verbose get https://registry.npmjs.org/dateformat not expired, no request
+1487 silly addNameRange number 2 { name: 'dateformat', range: '>=1.0.11 <2.0.0', hasData: true }
+1488 silly addNameRange versions [ 'dateformat',
+1488 silly addNameRange   [ '0.9.0-1.2.3',
+1488 silly addNameRange     '1.0.0-1.2.3',
+1488 silly addNameRange     '1.0.1-1.2.3',
+1488 silly addNameRange     '1.0.2-1.2.3',
+1488 silly addNameRange     '1.0.3-1.2.3',
+1488 silly addNameRange     '1.0.4-1.2.3',
+1488 silly addNameRange     '1.0.5-1.2.3',
+1488 silly addNameRange     '1.0.6-1.2.3',
+1488 silly addNameRange     '1.0.7-1.2.3',
+1488 silly addNameRange     '1.0.8-1.2.3',
+1488 silly addNameRange     '1.0.8',
+1488 silly addNameRange     '1.0.9',
+1488 silly addNameRange     '1.0.10',
+1488 silly addNameRange     '1.0.11',
+1488 silly addNameRange     '1.0.12' ] ]
+1489 silly addNamed dateformat@1.0.12
+1490 verbose addNamed "1.0.12" is a plain semver version for dateformat
+1491 verbose get https://registry.npmjs.org/has-gulplog not expired, no request
+1492 silly addNameRange number 2 { name: 'has-gulplog', range: '>=0.1.0 <0.2.0', hasData: true }
+1493 silly addNameRange versions [ 'has-gulplog', [ '0.1.0' ] ]
+1494 silly addNamed has-gulplog@0.1.0
+1495 verbose addNamed "0.1.0" is a plain semver version for has-gulplog
+1496 verbose get https://registry.npmjs.org/gulplog not expired, no request
+1497 silly addNameRange number 2 { name: 'gulplog', range: '>=1.0.0 <2.0.0', hasData: true }
+1498 silly addNameRange versions [ 'gulplog', [ '0.0.0', '1.0.0' ] ]
+1499 silly addNamed gulplog@1.0.0
+1500 verbose addNamed "1.0.0" is a plain semver version for gulplog
+1501 silly mapToRegistry name dateformat
+1502 silly mapToRegistry using default registry
+1503 silly mapToRegistry registry https://registry.npmjs.org/
+1504 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+1505 verbose addRemoteTarball https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz not in flight; adding
+1506 verbose addRemoteTarball [ 'https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz',
+1506 verbose addRemoteTarball   '9f124b67594c937ff706932e4a642cca8dbbfee9' ]
+1507 verbose get https://registry.npmjs.org/lodash._reescape not expired, no request
+1508 silly addNameRange number 2 { name: 'lodash._reescape',
+1508 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1508 silly addNameRange   hasData: true }
+1509 silly addNameRange versions [ 'lodash._reescape', [ '3.0.0' ] ]
+1510 silly addNamed lodash._reescape@3.0.0
+1511 verbose addNamed "3.0.0" is a plain semver version for lodash._reescape
+1512 verbose get https://registry.npmjs.org/through2 not expired, no request
+1513 silly addNameRange number 2 { name: 'through2', range: '>=2.0.0 <3.0.0', hasData: true }
+1514 silly addNameRange versions [ 'through2',
+1514 silly addNameRange   [ '0.0.0',
+1514 silly addNameRange     '0.0.1',
+1514 silly addNameRange     '0.0.2',
+1514 silly addNameRange     '0.0.3',
+1514 silly addNameRange     '0.0.4',
+1514 silly addNameRange     '0.0.5',
+1514 silly addNameRange     '0.1.0',
+1514 silly addNameRange     '0.2.0',
+1514 silly addNameRange     '0.2.1',
+1514 silly addNameRange     '0.2.2',
+1514 silly addNameRange     '0.2.3',
+1514 silly addNameRange     '0.3.0',
+1514 silly addNameRange     '0.4.0',
+1514 silly addNameRange     '0.4.1',
+1514 silly addNameRange     '1.0.0',
+1514 silly addNameRange     '0.4.2',
+1514 silly addNameRange     '0.5.0',
+1514 silly addNameRange     '0.5.1',
+1514 silly addNameRange     '0.6.0',
+1514 silly addNameRange     '1.1.0',
+1514 silly addNameRange     '0.6.1',
+1514 silly addNameRange     '1.1.1',
+1514 silly addNameRange     '0.6.2',
+1514 silly addNameRange     '0.6.3',
+1514 silly addNameRange     '0.6.4',
+1514 silly addNameRange     '0.6.5',
+1514 silly addNameRange     '2.0.0' ] ]
+1515 silly addNamed through2@2.0.0
+1516 verbose addNamed "2.0.0" is a plain semver version for through2
+1517 verbose get https://registry.npmjs.org/lodash._reevaluate not expired, no request
+1518 silly addNameRange number 2 { name: 'lodash._reevaluate',
+1518 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1518 silly addNameRange   hasData: true }
+1519 silly addNameRange versions [ 'lodash._reevaluate', [ '3.0.0' ] ]
+1520 silly addNamed lodash._reevaluate@3.0.0
+1521 verbose addNamed "3.0.0" is a plain semver version for lodash._reevaluate
+1522 verbose get https://registry.npmjs.org/lodash._reinterpolate not expired, no request
+1523 silly addNameRange number 2 { name: 'lodash._reinterpolate',
+1523 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1523 silly addNameRange   hasData: true }
+1524 silly addNameRange versions [ 'lodash._reinterpolate',
+1524 silly addNameRange   [ '2.0.0',
+1524 silly addNameRange     '2.1.0',
+1524 silly addNameRange     '2.2.0',
+1524 silly addNameRange     '2.2.1',
+1524 silly addNameRange     '2.3.0',
+1524 silly addNameRange     '2.4.0',
+1524 silly addNameRange     '2.4.1',
+1524 silly addNameRange     '3.0.0' ] ]
+1525 silly addNamed lodash._reinterpolate@3.0.0
+1526 verbose addNamed "3.0.0" is a plain semver version for lodash._reinterpolate
+1527 verbose get https://registry.npmjs.org/multipipe not expired, no request
+1528 silly addNameRange number 2 { name: 'multipipe', range: '>=0.1.2 <0.2.0', hasData: true }
+1529 silly addNameRange versions [ 'multipipe',
+1529 silly addNameRange   [ '0.0.0',
+1529 silly addNameRange     '0.0.1',
+1529 silly addNameRange     '0.0.2',
+1529 silly addNameRange     '0.1.0',
+1529 silly addNameRange     '0.1.1',
+1529 silly addNameRange     '0.1.2',
+1529 silly addNameRange     '0.2.0',
+1529 silly addNameRange     '0.2.1' ] ]
+1530 silly addNamed multipipe@0.1.2
+1531 verbose addNamed "0.1.2" is a plain semver version for multipipe
+1532 verbose get https://registry.npmjs.org/replace-ext not expired, no request
+1533 verbose get https://registry.npmjs.org/object-assign not expired, no request
+1534 silly addNameRange number 2 { name: 'object-assign', range: '>=3.0.0 <4.0.0', hasData: true }
+1535 silly addNameRange versions [ 'object-assign',
+1535 silly addNameRange   [ '0.1.0',
+1535 silly addNameRange     '0.1.1',
+1535 silly addNameRange     '0.1.2',
+1535 silly addNameRange     '0.2.0',
+1535 silly addNameRange     '0.2.1',
+1535 silly addNameRange     '0.2.2',
+1535 silly addNameRange     '0.3.0',
+1535 silly addNameRange     '0.3.1',
+1535 silly addNameRange     '0.4.0',
+1535 silly addNameRange     '1.0.0',
+1535 silly addNameRange     '2.0.0',
+1535 silly addNameRange     '3.0.0',
+1535 silly addNameRange     '2.1.1',
+1535 silly addNameRange     '4.0.0',
+1535 silly addNameRange     '4.0.1' ] ]
+1536 silly addNamed object-assign@3.0.0
+1537 verbose addNamed "3.0.0" is a plain semver version for object-assign
+1538 verbose get https://registry.npmjs.org/lodash.template not expired, no request
+1539 silly addNameRange number 2 { name: 'lodash.template',
+1539 silly addNameRange   range: '>=3.0.0 <4.0.0',
+1539 silly addNameRange   hasData: true }
+1540 silly addNameRange versions [ 'lodash.template',
+1540 silly addNameRange   [ '2.0.0',
+1540 silly addNameRange     '2.1.0',
+1540 silly addNameRange     '2.2.0',
+1540 silly addNameRange     '2.2.1',
+1540 silly addNameRange     '2.3.0',
+1540 silly addNameRange     '2.4.0',
+1540 silly addNameRange     '2.4.1',
+1540 silly addNameRange     '3.0.0',
+1540 silly addNameRange     '3.0.1',
+1540 silly addNameRange     '3.1.0',
+1540 silly addNameRange     '3.2.0',
+1540 silly addNameRange     '3.3.0',
+1540 silly addNameRange     '3.3.1',
+1540 silly addNameRange     '3.3.2',
+1540 silly addNameRange     '3.4.0',
+1540 silly addNameRange     '3.5.0',
+1540 silly addNameRange     '3.5.1',
+1540 silly addNameRange     '3.6.0',
+1540 silly addNameRange     '3.6.1',
+1540 silly addNameRange     '3.6.2',
+1540 silly addNameRange     '4.0.0',
+1540 silly addNameRange     '4.0.1',
+1540 silly addNameRange     '4.0.2' ] ]
+1541 silly addNamed lodash.template@3.6.2
+1542 verbose addNamed "3.6.2" is a plain semver version for lodash.template
+1543 verbose get https://registry.npmjs.org/vinyl not expired, no request
+1544 silly addNameRange number 2 { name: 'vinyl', range: '>=0.5.0 <0.6.0', hasData: true }
+1545 silly addNameRange versions [ 'vinyl',
+1545 silly addNameRange   [ '0.1.0',
+1545 silly addNameRange     '0.2.0',
+1545 silly addNameRange     '0.2.1',
+1545 silly addNameRange     '0.2.2',
+1545 silly addNameRange     '0.2.3',
+1545 silly addNameRange     '0.3.0',
+1545 silly addNameRange     '0.3.1',
+1545 silly addNameRange     '0.3.2',
+1545 silly addNameRange     '0.3.3',
+1545 silly addNameRange     '0.4.0',
+1545 silly addNameRange     '0.4.1',
+1545 silly addNameRange     '0.4.2',
+1545 silly addNameRange     '0.4.3',
+1545 silly addNameRange     '0.4.4',
+1545 silly addNameRange     '0.4.5',
+1545 silly addNameRange     '0.4.6',
+1545 silly addNameRange     '0.5.0',
+1545 silly addNameRange     '0.5.1',
+1545 silly addNameRange     '0.5.3',
+1545 silly addNameRange     '1.0.0',
+1545 silly addNameRange     '1.1.0',
+1545 silly addNameRange     '1.1.1' ] ]
+1546 silly addNamed vinyl@0.5.3
+1547 verbose addNamed "0.5.3" is a plain semver version for vinyl
+1548 silly cache afterAdd array-uniq@1.0.2
+1549 verbose afterAdd /home/misael/.npm/array-uniq/1.0.2/package/package.json not in flight; writing
+1550 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1551 silly cache afterAdd array-differ@1.0.0
+1552 verbose afterAdd /home/misael/.npm/array-differ/1.0.0/package/package.json not in flight; writing
+1553 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1554 silly cache afterAdd fancy-log@1.1.0
+1555 verbose afterAdd /home/misael/.npm/fancy-log/1.1.0/package/package.json not in flight; writing
+1556 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1557 silly cache afterAdd beeper@1.1.0
+1558 verbose afterAdd /home/misael/.npm/beeper/1.1.0/package/package.json not in flight; writing
+1559 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1560 silly cache afterAdd has-gulplog@0.1.0
+1561 verbose afterAdd /home/misael/.npm/has-gulplog/0.1.0/package/package.json not in flight; writing
+1562 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1563 silly cache afterAdd gulplog@1.0.0
+1564 verbose afterAdd /home/misael/.npm/gulplog/1.0.0/package/package.json not in flight; writing
+1565 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1566 silly cache afterAdd lodash._reescape@3.0.0
+1567 verbose afterAdd /home/misael/.npm/lodash._reescape/3.0.0/package/package.json not in flight; writing
+1568 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1569 silly cache afterAdd through2@2.0.0
+1570 verbose afterAdd /home/misael/.npm/through2/2.0.0/package/package.json not in flight; writing
+1571 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1572 silly cache afterAdd lodash._reevaluate@3.0.0
+1573 verbose afterAdd /home/misael/.npm/lodash._reevaluate/3.0.0/package/package.json not in flight; writing
+1574 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1575 silly cache afterAdd lodash._reinterpolate@3.0.0
+1576 verbose afterAdd /home/misael/.npm/lodash._reinterpolate/3.0.0/package/package.json not in flight; writing
+1577 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1578 silly cache afterAdd multipipe@0.1.2
+1579 verbose afterAdd /home/misael/.npm/multipipe/0.1.2/package/package.json not in flight; writing
+1580 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1581 silly cache afterAdd replace-ext@0.0.1
+1582 verbose afterAdd /home/misael/.npm/replace-ext/0.0.1/package/package.json not in flight; writing
+1583 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1584 silly cache afterAdd object-assign@3.0.0
+1585 verbose afterAdd /home/misael/.npm/object-assign/3.0.0/package/package.json not in flight; writing
+1586 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1587 silly cache afterAdd lodash.template@3.6.2
+1588 verbose afterAdd /home/misael/.npm/lodash.template/3.6.2/package/package.json not in flight; writing
+1589 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1590 verbose afterAdd /home/misael/.npm/array-uniq/1.0.2/package/package.json written
+1591 verbose afterAdd /home/misael/.npm/array-differ/1.0.0/package/package.json written
+1592 verbose afterAdd /home/misael/.npm/fancy-log/1.1.0/package/package.json written
+1593 verbose afterAdd /home/misael/.npm/beeper/1.1.0/package/package.json written
+1594 silly cache afterAdd vinyl@0.5.3
+1595 verbose afterAdd /home/misael/.npm/vinyl/0.5.3/package/package.json not in flight; writing
+1596 verbose correctMkdir /home/misael/.npm correctMkdir not in flight; initializing
+1597 verbose afterAdd /home/misael/.npm/has-gulplog/0.1.0/package/package.json written
+1598 verbose afterAdd /home/misael/.npm/gulplog/1.0.0/package/package.json written
+1599 verbose afterAdd /home/misael/.npm/through2/2.0.0/package/package.json written
+1600 verbose afterAdd /home/misael/.npm/lodash._reescape/3.0.0/package/package.json written
+1601 verbose afterAdd /home/misael/.npm/lodash._reevaluate/3.0.0/package/package.json written
+1602 verbose afterAdd /home/misael/.npm/lodash._reinterpolate/3.0.0/package/package.json written
+1603 verbose afterAdd /home/misael/.npm/replace-ext/0.0.1/package/package.json written
+1604 verbose afterAdd /home/misael/.npm/multipipe/0.1.2/package/package.json written
+1605 verbose afterAdd /home/misael/.npm/object-assign/3.0.0/package/package.json written
+1606 verbose afterAdd /home/misael/.npm/lodash.template/3.6.2/package/package.json written
+1607 verbose afterAdd /home/misael/.npm/vinyl/0.5.3/package/package.json written
+1608 info retry fetch attempt 1 at 15:17:14
+1609 info attempt registry request try #1 at 15:17:14
+1610 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1611 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1612 info attempt registry request try #2 at 15:17:24
+1613 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1614 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1615 info attempt registry request try #3 at 15:18:24
+1616 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1617 error fetch failed https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1618 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1619 info retry fetch attempt 2 at 15:18:34
+1620 info attempt registry request try #1 at 15:18:34
+1621 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1622 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1623 info attempt registry request try #2 at 15:18:44
+1624 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1625 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1626 info attempt registry request try #3 at 15:19:44
+1627 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1628 error fetch failed https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1629 warn retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1630 info retry fetch attempt 3 at 15:20:44
+1631 info attempt registry request try #1 at 15:20:44
+1632 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1633 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1634 info attempt registry request try #2 at 15:20:54
+1635 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1636 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO
+1637 info attempt registry request try #3 at 15:21:54
+1638 http fetch GET https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1639 error fetch failed https://registry.npmjs.org/dateformat/-/dateformat-1.0.12.tgz
+1640 silly rollbackFailedOptional Starting
+1641 silly rollbackFailedOptional Finishing
+1642 silly runTopLevelLifecycles Starting
+1643 silly runTopLevelLifecycles Finishing
+1644 silly install printInstalled
+1645 verbose stack Error: tunneling socket could not be established, cause=write EPROTO
+1645 verbose stack     at ClientRequest.onError (/home/misael/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+1645 verbose stack     at ClientRequest.g (events.js:260:16)
+1645 verbose stack     at emitOne (events.js:77:13)
+1645 verbose stack     at ClientRequest.emit (events.js:169:7)
+1645 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:259:9)
+1645 verbose stack     at emitOne (events.js:77:13)
+1645 verbose stack     at TLSSocket.emit (events.js:169:7)
+1645 verbose stack     at onwriteError (_stream_writable.js:304:10)
+1645 verbose stack     at onwrite (_stream_writable.js:322:5)
+1645 verbose stack     at WritableState.onwrite (_stream_writable.js:89:5)
+1646 verbose cwd /home/misael/js/ng-module-sample
+1647 error Linux 3.16.0-41-generic
+1648 error argv "/home/misael/.nvm/versions/node/v4.0.0/bin/node" "/home/misael/.nvm/versions/node/v4.0.0/bin/npm" "install" "gulp" "--save"
+1649 error node v4.0.0
+1650 error npm  v3.7.2
+1651 error code ECONNRESET
+1652 error network tunneling socket could not be established, cause=write EPROTO
+1653 error network This is most likely not a problem with npm itself
+1653 error network and is related to network connectivity.
+1653 error network In most cases you are behind a proxy or have bad network settings.
+1653 error network
+1653 error network If you are behind a proxy, please make sure that the
+1653 error network 'proxy' config is set properly.  See: 'npm help config'
+1654 verbose exit [ 1, true ]

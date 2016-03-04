@@ -1,0 +1,21 @@
+{
+  "name": "saiku_api",
+  "version": "0.0.2",
+  "description": "Saiku web GUI",
+  "main": "index.js",
+  "scripts": {
+    "up": "ws -d public -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "saiku",
+    "api",
+    "http",
+    "app"
+  ],
+  "author": "Revolua",
+  "license": "ISC",
+  "dependencies": {
+    "local-web-server": "^1.1.1"
+  }
+}
